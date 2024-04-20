@@ -1,0 +1,71 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+    {
+    	"path": "pages/navTitleScroll/navTitleScroll",
+    	"style": {
+    		"navigationBarTitleText": "导航标题过长时滚动",
+        "navigationStyle": "custom"
+    	}
+    },
+    {
+    	"path": "pages/steps/steps",
+    	"style": {
+    		"navigationBarTitleText": "审批历史记录steps"
+    	}
+    },
+    {
+    	"path": "pages/titleBackground/titleBackground",
+    	"style": {
+    		"navigationBarTitleText": "头部滚动一定距离变背景颜色",
+        "navigationStyle":"custom"
+    	}
+    },
+    {
+    	"path": "pages/titleBackground/titleBackground1",
+    	"style": {
+    		"navigationBarTitleText": "头部滚动一定距离变背景颜色",
+        "navigationStyle":"custom"
+    	}
+    },
+    {
+    	"path": "pages/imageScaleMove/imageScaleMove",
+    	"style": {
+    		"navigationBarTitleText": "放大移动图片"
+    	}
+    }
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+  "tabBar": {
+    "color": "#7C7C7C",
+    "selectedColor": "#02ADF4",
+    "backgroundColor": "#FFFFFF",
+    "list": [{
+    		"pagePath": "pages/index/index",
+    		"text": "首页"
+    	},
+    	{
+    		"pagePath": "pages/navTitleScroll/navTitleScroll",
+    		"text": "一键开门"
+    	},
+    	{
+    			"pagePath": "pages/steps/steps",
+    			"text": "商城"
+    		},
+    	{
+    		"pagePath": "pages/titleBackground/titleBackground1",
+    		"text": "我的"
+    	}
+    ]
+  }
+}

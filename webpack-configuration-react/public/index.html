@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>使用webpack5搭建React开发环境</title>
+  <!-- require cdn assets css -->
+  <% for (var i in htmlWebpackPlugin.options.files &&
+  htmlWebpackPlugin.options.files.css) { %>
+  <link
+    rel="stylesheet"
+    href="<%= htmlWebpackPlugin.options.files.css[i] %>"
+  />
+  <% } %>
+</head>
+<body>
+  <div id="root"></div>
+  <!-- require cdn assets js -->
+  <% for (var i in htmlWebpackPlugin.options.files &&
+  htmlWebpackPlugin.options.files.js) { %>
+  <script
+    type="text/javascript"
+    crossorigin
+    src="<%= htmlWebpackPlugin.options.files.js[i] %>"
+  ></script>
+  <% } %>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "createfile-cli",
+  "version": "1.0.0",
+  "description": "创建模板文件构建工具",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "start:inner": "cross-env NODE_ENV=inner node main.js",
+    "start:outer": "cross-env NODE_ENV=outer node main.js",
+    "start:json": "node readJson.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "4",
+    "compressing": "1.5.1",
+    "cross-env": "7.0.3",
+    "exceljs": "^4.4.0",
+    "formidable": "1.2.2"
+  }
+}

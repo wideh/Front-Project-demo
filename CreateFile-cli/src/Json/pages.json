@@ -1,0 +1,1438 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/hello",
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "首页",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/door/opendoor",
+      "style": {
+        "navigationBarTitleText": "一键开门"
+      }
+    },
+    {
+      "path": "pages/me/me",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/user-account/resource-list",
+      "style": {
+        "navigationBarTitleText": "选择房间",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/user-account/charge",
+      "style": {
+        "navigationBarTitleText": "充值"
+      }
+    },
+    {
+      "path": "pages/user-account/charge-history",
+      "style": {
+        "navigationBarTitleText": "充值记录",
+        "enablePullDownRefresh": true,
+        "onReachBottomDistance": 50
+      }
+    },
+    {
+      "path": "pages/select-room/select-city",
+      "style": {
+        "navigationBarTitleText": "城市"
+      }
+    },
+    {
+      "path": "pages/select-room/select-region",
+      "style": {
+        "navigationBarTitleText": "选择小区"
+      }
+    },
+    {
+      "path": "pages/select-room/select-building",
+      "style": {
+        "navigationBarTitleText": "选择楼宇"
+      }
+    },
+    {
+      "path": "pages/select-room/select-room",
+      "style": {
+        "navigationBarTitleText": "选择房间"
+      }
+    },
+    {
+      "path": "pages/select-room/select-point-building",
+      "style": {
+        "navigationBarTitleText": "选择楼宇"
+      }
+    },
+    {
+      "path": "pages/select-room/select-point-unit",
+      "style": {
+        "navigationBarTitleText": "选择单元"
+      }
+    },
+    {
+      "path": "pages/select-room/select-point-room",
+      "style": {
+        "navigationBarTitleText": "选择房间"
+      }
+    },
+    {
+      "path": "pages/me/setting/setting",
+      "style": {
+        "navigationBarTitleText": "个人资料"
+      }
+    },
+    {
+      "path": "pages/me/nickname/nickname",
+      "style": {
+        "navigationBarTitleText": "昵称"
+      }
+    },
+    {
+      "path": "pages/me/activity/activity",
+      "style": {
+        "navigationBarTitleText": "我的活动"
+      }
+    },
+    {
+      "path": "pages/me/room/room",
+      "style": {
+        "navigationBarTitleText": "我的房间"
+      }
+    },
+    {
+      "path": "pages/me/room/role/role",
+      "style": {
+        "navigationBarTitleText": "选择身份"
+      }
+    },
+    {
+      "path": "pages/me/room/add/add",
+      "style": {
+        "navigationBarTitleText": "房间绑定"
+      }
+    },
+    {
+      "path": "pages/me/room/add-success/add-success",
+      "style": {
+        "navigationBarTitleText": "绑定成功"
+      }
+    },
+    {
+      "path": "pages/me/room/check-owner/check-owner",
+      "style": {
+        "navigationBarTitleText": "业主信息验证"
+      }
+    },
+    {
+      "path": "pages/me/room/member/member",
+      "style": {
+        "navigationBarTitleText": "管理成员"
+      }
+    },
+    {
+      "path": "pages/me/room/tenant/tenant",
+      "style": {
+        "navigationBarTitleText": "管理租户"
+      }
+    },
+    {
+      "path": "pages/login/weixin/weixin",
+      "style": {
+        "navigationBarTitleText": "微信授权"
+      }
+    },
+    {
+      "path": "pages/position/city/city",
+      "style": {
+        "navigationBarTitleText": "选择城市"
+      }
+    },
+    {
+      "path": "pages/position/area/area",
+      "style": {
+        "navigationBarTitleText": "选择区域"
+      }
+    },
+    {
+      "path": "pages/position/building/building",
+      "style": {
+        "navigationBarTitleText": "选择楼栋"
+      }
+    },
+    {
+      "path": "pages/position/community/community",
+      "style": {
+        "navigationBarTitleText": "选择社区"
+      }
+    },
+    {
+      "path": "pages/position/pms-company/pms-company",
+      "style": {
+        "navigationBarTitleText": "选择物业公司"
+      }
+    },
+    {
+      "path": "pages/position/saas-region/saas-region",
+      "style": {
+        "navigationBarTitleText": "选择小区"
+      }
+    },
+    {
+      "path": "pages/position/parking-lot/parking-lot",
+      "style": {
+        "navigationBarTitleText": "选择停车场"
+      }
+    },
+    {
+      "path": "pages/position/parking-space/parking-space",
+      "style": {
+        "navigationBarTitleText": "选择停车位"
+      }
+    },
+    {
+      "path": "pages/position/building-lot/building-lot",
+      "style": {
+        "navigationBarTitleText": "选择楼栋/停车场"
+      }
+    },
+    {
+      "path": "pages/me/room/member/edit/edit",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    },
+    {
+      "path": "pages/me/room/tenant/edit/edit",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    },
+    {
+      "path": "pages/me/room/member/success/success",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    },
+    {
+      "path": "pages/me/room/tenant/success/success",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    },
+    {
+      "path": "pages/me/car/car",
+      "style": {
+        "navigationBarTitleText": "我的车辆"
+      }
+    },
+    {
+      "path": "pages/me/car/add/add",
+      "style": {
+        "navigationBarTitleText": "新增车辆"
+      }
+    },
+    {
+      "path": "pages/me/parking/parking",
+      "style": {
+        "navigationBarTitleText": "我的车位"
+      }
+    },
+    {
+      "path": "pages/me/parking/add/add",
+      "style": {
+        "navigationBarTitleText": "新增车位"
+      }
+    },
+    {
+      "path": "pages/me/parking/success/success",
+      "style": {
+        "navigationBarTitleText": "新增车位"
+      }
+    },
+    {
+      "path": "pages/me/car/success/success",
+      "style": {
+        "navigationBarTitleText": "新增车辆"
+      }
+    },
+    {
+      "path": "pages/me/message/message",
+      "style": {
+        "navigationBarTitleText": "我的消息"
+      }
+    },
+    {
+      "path": "pages/door/description/description",
+      "style": {
+        "navigationBarTitleText": "操作说明"
+      }
+    },
+    {
+      "path": "pages/me/select/room-and-parking/room-and-parking",
+      "style": {
+        "navigationBarTitleText": "选择房间/车位"
+      }
+    },
+    {
+      "path": "pages/position/position",
+      "style": {
+        "navigationBarTitleText": "选择位置"
+      }
+    },
+    {
+      "path": "pages/position/unit/unit",
+      "style": {
+        "navigationBarTitleText": "选择单元"
+      }
+    },
+    {
+      "path": "pages/position/room/room",
+      "style": {
+        "navigationBarTitleText": "选择房间"
+      }
+    },
+    {
+      "path": "pages/position/room/room_old",
+      "style": {
+        "navigationBarTitleText": "选择房间"
+      }
+    },
+    {
+      "path": "pages/login/check/check",
+      "style": {
+        "navigationBarTitleText": "完善个人信息"
+      }
+    },
+    {
+      "path": "pages/activity/activity",
+      "style": {
+        "navigationBarTitleText": "社区活动"
+      }
+    },
+    {
+      "path": "pages/activity/item/item",
+      "style": {
+        "navigationBarTitleText": "活动详情"
+      }
+    },
+    {
+      "path": "pages/activity/detail-webview/detail-webview",
+      "style": {
+        "navigationBarTitleText": "活动详情",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/me/history-bill/history-bill",
+      "style": {
+        "navigationBarTitleText": "历史账单"
+      }
+    },
+    {
+      "path": "pages/me/phone/phone",
+      "style": {
+        "navigationBarTitleText": "修改手机号"
+      }
+    },
+    {
+      "path": "pages/me/recharge/recharge",
+      "style": {
+        "navigationBarTitleText": "充值"
+      }
+    },
+    {
+      "path": "pages/me/recharge/log/log",
+      "style": {
+        "navigationBarTitleText": "充值记录"
+      }
+    },
+    {
+      "path": "pages/me/debug-page/debug-page",
+      "style": {
+        "navigationBarTitleText": "调试信息"
+      }
+    },
+    {
+      "path": "pages/me/recharge/success/success",
+      "style": {
+        "navigationBarTitleText": "充值成功"
+      }
+    },
+    {
+      "path": "pages/bill/success/success",
+      "style": {
+        "navigationBarTitleText": "缴费成功"
+      }
+    },
+    {
+      "path": "pages/about/about",
+      "style": {}
+    },
+    {
+      "path": "pages/about/agreement/agreement",
+      "style": {
+        "navigationBarTitleText": "许可及服务协议"
+      }
+    },
+    {
+      "path": "pages/door/success/success",
+      "style": {
+        "navigationBarTitleText": "开门成功"
+      }
+    },
+    {
+      "path": "pages/door/open/apply/apply",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    },
+    {
+      "path": "pages/door/open/apply/result",
+      "style": {
+        "navigationBarTitleText": "申请结果"
+      }
+    },
+    {
+      "path": "pages/door/open/apply/pass",
+      "style": {
+        "navigationBarTitleText": "申请通过"
+      }
+    },
+    {
+      "path": "pages/door/open/apply/fail",
+      "style": {
+        "navigationBarTitleText": "申请未通过"
+      }
+    },
+    {
+      "path": "pages/activity/success/success",
+      "style": {
+        "navigationBarTitleText": "报名成功"
+      }
+    },
+    {
+      "path": "pages/activity/sign/sign",
+      "style": {
+        "navigationBarTitleText": "活动签到"
+      }
+    },
+    {
+      "path": "pages/complaints/complaints",
+      "style": {
+        "navigationBarTitleText": "投诉建议"
+      }
+    },
+    {
+      "path": "pages/complaints/complaints-desc",
+      "style": {
+        "navigationBarTitleText": "投诉建议详情"
+      }
+    },
+    {
+      "path": "pages/complaints/complaints-evaluation",
+      "style": {
+        "navigationBarTitleText": "评价"
+      }
+    },
+    {
+      "path": "pages/complaints/evaluation-advice",
+      "style": {
+        "navigationBarTitleText": "投诉建议"
+      }
+    },
+    {
+      "path": "pages/complaints/complaint-list",
+      "style": {
+        "navigationBarTitleText": "我的投诉"
+      }
+    },
+    {
+      "path": "pages/complaints/compliant-place",
+      "style": {
+        "navigationBarTitleText": "选择位置"
+      }
+    },
+    {
+      "path": "pages/complaints/compliant-area",
+      "style": {
+        "navigationBarTitleText": "区域"
+      }
+    },
+    {
+      "path": "pages/complaints/success",
+      "style": {
+        "navigationBarTitleText": "投诉"
+      }
+    },
+    {
+      "path": "pages/web/web",
+      "style": {}
+    },
+    {
+      "path": "pages/me/room/room-prompt/room-prompt",
+      "style": {
+        "navigationBarTitleText": "使用协议"
+      }
+    },
+    {
+      "path": "components/room-useagreement/room-useagreement",
+      "style": {}
+    },
+    {
+      "path": "pages/me/history-pay/history-pay",
+      "style": {
+        "navigationBarTitleText": "缴费记录",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/me/history-pay/history-paydetail/history-paydetail",
+      "style": {
+        "navigationBarTitleText": "缴费详情"
+      }
+    },
+    {
+      "path": "pages/me/history-pay/request_invoices/request_invoices",
+      "style": {
+        "navigationBarTitleText": "申请发票"
+      }
+    },
+    {
+      "path": "pages/me/history-pay/request_invoices/request_wyinvoices",
+      "style": {
+        "navigationBarTitleText": "申请发票"
+      }
+    },
+    {
+      "path": "pages/me/history-pay/request_success/request_success",
+      "style": {
+        "navigationBarTitleText": "申请发票"
+      }
+    },
+    {
+      "path": "pages/me/history-pay/view_invoices/view_invoices",
+      "style": {
+        "navigationBarTitleText": "电子发票"
+      }
+    },
+    {
+      "path": "pages/me/history-pay/send_invoices/send_invoices",
+      "style": {
+        "navigationBarTitleText": "发送发票"
+      }
+    },
+    {
+      "path": "pages/nova-mall/entry",
+      "style": {
+        "navigationBarTitleText": "园区商城"
+      }
+    },
+    {
+      "path": "pages/nova-mall/web",
+      "style": {
+        "navigationBarTitleText": "园区商城"
+      }
+    },
+    {
+      "path": "pages/forum/forum",
+      "style": {
+        "navigationBarTitleText": "论坛"
+      }
+    },
+    {
+      "path": "pages/nova-mall/pointWeb",
+      "style": {
+        "navigationBarTitleText": "积分商城"
+      }
+    },
+    {
+      "path": "pages/bill/empty-pay",
+      "style": {
+        "navigationBarTitleText": "pms支付",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/all-menus/all-menus",
+      "style": {
+        "navigationBarTitleText": "全部功能",
+        "navigationStyle": "custom"
+      }
+    }
+  ],
+  "subPackages": [
+    {
+      "root": "packageroomService",
+      "pages": [
+        {
+          "path": "serviceType",
+          "style": {
+            "navigationBarTitleText": "房屋服务"
+          }
+        },
+        {
+          "path": "serviceForm",
+          "style": {
+            "navigationBarTitleText": ""
+          }
+        }
+      ]
+    },
+    {
+      "root": "packageEC",
+      "pages": [
+        {
+          "path": "confirm-order",
+          "style": {
+            "navigationBarTitleText": "订单确认",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "my-order",
+          "style": {
+            "navigationBarTitleText": "我的订单",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pay-way",
+          "style": {
+            "navigationBarTitleText": "支付方式",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "order-detail",
+          "style": {
+            "navigationBarTitleText": "订单详情",
+            "enablePullDownRefresh": false,
+            "navigationBarBackgroundColor": "#e43130",
+            "navigationBarTextStyle": "white"
+          }
+        },
+        {
+          "path": "apply-refund",
+          "style": {
+            "navigationBarTitleText": "申请退款",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "after-sales",
+          "style": {
+            "navigationBarTitleText": "退款详情",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "detail-of-refund",
+          "style": {
+            "navigationBarTitleText": "退款进度",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pay-result",
+          "style": {
+            "navigationBarTitleText": "支付结果",
+            "enablePullDownRefresh": false
+          }
+        }
+      ]
+    },
+    {
+      "root": "packagePark",
+      "pages": [
+        {
+          "path": "car/car",
+          "style": {
+            "navigationBarTitleText": "新增车辆"
+          }
+        },
+        {
+          "path": "car/add/add",
+          "style": {
+            "navigationBarTitleText": "新增车辆"
+          }
+        },
+        {
+          "path": "car/success/success",
+          "style": {
+            "navigationBarTitleText": "新增车辆"
+          }
+        },
+        {
+          "path": "park/add/add",
+          "style": {
+            "navigationBarTitleText": "停车缴费"
+          }
+        },
+        {
+          "path": "park/pay/pay",
+          "style": {
+            "navigationBarTitleText": "停车缴费"
+          }
+        },
+        {
+          "path": "park/pay/success/success",
+          "style": {
+            "navigationBarTitleText": "停车缴费"
+          }
+        },
+        {
+          "path": "park/pay/fail/fail",
+          "style": {
+            "navigationBarTitleText": "停车缴费"
+          }
+        },
+        {
+          "path": "card/card",
+          "style": {
+            "navigationBarTitleText": "月卡管理"
+          }
+        },
+        {
+          "path": "card/order/order",
+          "style": {
+            "navigationBarTitleText": "月卡管理"
+          }
+        },
+        {
+          "path": "card/pay/fail/fail",
+          "style": {
+            "navigationBarTitleText": "月卡管理"
+          }
+        },
+        {
+          "path": "card/pay/success/success",
+          "style": {
+            "navigationBarTitleText": "月卡管理"
+          }
+        },
+        {
+          "path": "MyBusiness/pay/fail/fail",
+          "style": {
+            "navigationBarTitleText": "我的业务"
+          }
+        },
+        {
+          "path": "MyBusiness/pay/success/success",
+          "style": {
+            "navigationBarTitleText": "我的业务"
+          }
+        },
+        {
+          "path": "MyBusiness/business/business",
+          "style": {
+            "navigationBarTitleText": "我的业务"
+          }
+        },
+        {
+          "path": "businessProcess/businessProcess/businessProcess",
+          "style": {
+            "navigationBarTitleText": "业务办理"
+          }
+        },
+        {
+          "path": "businessProcess/add/add",
+          "style": {
+            "navigationBarTitleText": "选择车牌号"
+          }
+        },
+        {
+          "path": "businessProcess/add/add-address",
+          "style": {
+            "navigationBarTitleText": "地址"
+          }
+        },
+        {
+          "path": "businessProcess/success/success",
+          "style": {
+            "navigationBarTitleText": "完成"
+          }
+        },
+        {
+          "path": "invoice/index",
+          "style": {
+            "navigationBarTitleText": "临停缴费开票"
+          }
+        },
+        {
+          "path": "invoice/applyInvoice/tempBillList",
+          "style": {
+            "navigationBarTitleText": "临停缴费记录"
+          }
+        },
+        {
+          "path": "invoice/applyInvoice/apply",
+          "style": {
+            "navigationBarTitleText": "开具发票"
+          }
+        },
+        {
+          "path": "invoice/moreInfo/moreInfo",
+          "style": {
+            "navigationBarTitleText": "更多信息"
+          }
+        },
+        {
+          "path": "invoice/invoiceHistory/detail",
+          "style": {
+            "navigationBarTitleText": "发票详情"
+          }
+        },
+        {
+          "path": "invoice/invoiceHistory/invoiceHistory",
+          "style": {
+            "navigationBarTitleText": "开票历史"
+          }
+        },
+        {
+          "path": "invoice/applyInvoice/result",
+          "style": {
+            "navigationBarTitleText": "开票申请"
+          }
+        },
+        {
+          "path": "invoice/invoiceHead/invoiceHead",
+          "style": {
+            "navigationBarTitleText": "发票抬头"
+          }
+        },
+        {
+          "path": "invoice/invoiceHead/detail",
+          "style": {
+            "navigationBarTitleText": "抬头详情"
+          }
+        },
+        {
+          "path": "invoice/invoiceHead/edit",
+          "style": {
+            "navigationBarTitleText": "编辑抬头"
+          }
+        },
+        {
+          "path": "invoice/invoiceHead/add",
+          "style": {
+            "navigationBarTitleText": "添加抬头"
+          }
+        }
+      ]
+    },
+    {
+      "root": "packageKD",
+      "pages": [
+        {
+          "path": "parcel/parcel",
+          "style": {
+            "navigationBarTitleText": "我的邮包",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "parcel/receive",
+          "style": {
+            "navigationBarTitleText": "领取邮包",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "parcel/success-receive",
+          "style": {
+            "navigationBarTitleText": "领取邮包"
+          }
+        }
+      ]
+    },
+    {
+      "root": "packageWM",
+      "pages": [
+        {
+          "path": "sale-activity/sale-activity",
+          "style": {
+            "navigationBarTitleText": "外卖服务",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "sale-activity/sale-activity-detail",
+          "style": {
+            "navigationBarTitleText": "外卖活动",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "sale-activity/history-sale-activity-detail",
+          "style": {
+            "navigationBarTitleText": "外卖活动",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "sale-activity/sale-activity-order",
+          "style": {
+            "navigationBarTitleText": "外卖订单"
+          }
+        },
+        {
+          "path": "order/order",
+          "style": {
+            "navigationBarTitleText": "订购记录",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "order-detail/order-detail",
+          "style": {
+            "navigationBarTitleText": "订单详情"
+          }
+        },
+        {
+          "path": "paywhite/paywhite",
+          "style": {
+            "navigationBarTitleText": "支付",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pay-result-webview/pay-result-webview",
+          "style": {
+            "navigationBarTitleText": "支付结果",
+            "enablePullDownRefresh": false
+          }
+        }
+      ]
+    },
+    {
+      "root": "packageMeet",
+      "pages": [
+        {
+          "path": "meet-lease",
+          "style": {
+            "navigationBarTitleText": "租会议室",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "meet-lease-detail",
+          "style": {
+            "navigationBarTitleText": "租会议室",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "meet-lease-period",
+          "style": {
+            "navigationBarTitleText": "重复预定"
+          }
+        }
+      ]
+    },
+    {
+      "root": "packageZS",
+      "pages": [
+        {
+          "path": "house-resource",
+          "style": {
+            "navigationBarTitleText": "招商租赁",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "house-resource-detail",
+          "style": {
+            "navigationBarTitleText": "房源详情"
+          }
+        },
+        {
+          "path": "vr-detail",
+          "style": {
+            "navigationBarTitleText": "VR详情"
+          }
+        },
+        {
+          "path": "house-resource-suppose",
+          "style": {
+            "navigationBarTitleText": "提交意向"
+          }
+        },
+        {
+          "path": "house-resource-suppose-list",
+          "style": {
+            "navigationBarTitleText": "意向房源",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "house-resource-suppose-detail",
+          "style": {
+            "navigationBarTitleText": "意向详情"
+          }
+        },
+        {
+          "path": "region-detail",
+          "style": {
+            "navigationBarTitleText": "楼盘详情"
+          }
+        },
+        {
+          "path": "house-resource-no-tab",
+          "style": {
+            "navigationBarTitleText": "招商租赁"
+          }
+        }
+      ]
+    },
+    {
+      "root": "packageDecoration",
+      "pages": [
+        {
+          "path": "detail/detail",
+          "style": {
+            "navigationBarTitleText": "装修详情",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "notice/notice",
+          "style": {
+            "navigationBarTitleText": "装修须知"
+          }
+        },
+        {
+          "path": "new/new",
+          "style": {
+            "navigationBarTitleText": "装修申请"
+          }
+        },
+        {
+          "path": "new-success/new-success",
+          "style": {}
+        },
+        {
+          "path": "history/history",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarTitleText": "我的装修"
+          }
+        },
+        {
+          "path": "acceptance-success/acceptance-success",
+          "style": {
+            "navigationBarTitleText": "物业之家"
+          }
+        },
+        {
+          "path": "new-acceptance/new-acceptance",
+          "style": {
+            "navigationBarTitleText": "竣工验收申请"
+          }
+        },
+        {
+          "path": "select/room-and-parking/room-and-parking",
+          "style": {
+            "navigationBarTitleText": "选择房间"
+          }
+        },
+        {
+          "path": "reform-detail/reform-detail",
+          "style": {
+            "navigationBarTitleText": "违规详情"
+          }
+        }
+      ]
+    },
+    {
+      "root": "packageVote",
+      "pages": [
+        {
+          "path": "voteList/voteList",
+          "style": {
+            "navigationBarTitleText": "投票",
+            "enablePullDownRefresh": true
+          }
+        },
+        {
+          "path": "voteDetail/voteDetail",
+          "style": {
+            "navigationBarTitleText": "投票"
+					}
+				},
+        {
+					"path": "questionnaire/apply",
+					"style": {
+						"navigationBarTitleText": "问卷调查"
+					}
+				},
+        {
+					"path": "questionnaire/success",
+					"style": {
+						"navigationBarTitleText": "问卷调查"
+          }
+        }
+      ]
+    },
+    {
+      "root": "packageConvenience",
+      "pages": [
+        {
+          "path": "conveniencelist/conveniencelist",
+          "style": {
+            "navigationBarTitleText": "便民服务"
+          }
+        },
+        {
+          "path": "convenienceDetail/convenienceDetail",
+          "style": {
+            "navigationBarTitleText": "便民服务"
+          }
+        }
+      ]
+    },
+    {
+      "root": "packageVisitor",
+      "pages": [
+        {
+          "path": "visitor/add/add",
+          "style": {
+            "navigationBarTitleText": "新增访客"
+          }
+        },
+        {
+          "path": "visitor/item/item",
+          "style": {
+            "navigationBarTitleText": "邀请卡"
+          }
+        },
+        {
+          "path": "visitor/list/list",
+          "style": {
+            "navigationBarTitleText": "邀请记录"
+          }
+        },
+        {
+          "path": "visitor/release/release",
+          "style": {
+            "navigationBarTitleText": "放行记录",
+            "enablePullDownRefresh": true,
+            "onReachBottomDistance": 50
+          }
+        }
+      ]
+    },
+    {
+      "root": "packageRepair",
+      "pages": [
+        {
+          "path": "repair/new/new",
+          "style": {
+            "navigationBarTitleText": "报事报修"
+          }
+        },
+        {
+          "path": "repair/history/history",
+          "style": {
+            "navigationBarTitleText": "历史报修"
+          }
+        },
+        {
+          "path": "repair/rework/rework",
+          "style": {
+            "navigationBarTitleText": "返修申请"
+          }
+        },
+        {
+          "path": "repair/detail/detail",
+          "style": {
+            "navigationBarTitleText": "报修单详情"
+          }
+        },
+        {
+          "path": "repair/rework-success/rework-success",
+          "style": {
+            "navigationBarTitleText": "返修申请"
+          }
+        },
+        {
+          "path": "repair/new-success/new-success",
+          "style": {
+            "navigationBarTitleText": "报事报修"
+          }
+        },
+        {
+          "path": "repair/comment/comment",
+          "style": {
+            "navigationBarTitleText": "评价"
+          }
+        },
+        {
+          "path": "flowRepair/new/new",
+          "style": {
+            "navigationBarTitleText": "报事报修"
+          }
+        },
+        {
+          "path": "flowRepair/history/history",
+          "style": {
+            "navigationBarTitleText": "历史记录"
+          }
+        },
+        {
+          "path": "flowRepair/rework/rework",
+          "style": {
+            "navigationBarTitleText": "返修申请"
+          }
+        },
+        {
+          "path": "flowRepair/detail/detail",
+          "style": {
+            "navigationBarTitleText": "报事报修详情"
+          }
+        },
+        {
+          "path": "flowRepair/rework-success/rework-success",
+          "style": {
+            "navigationBarTitleText": "返修申请"
+          }
+        },
+        {
+          "path": "flowRepair/new-success/new-success",
+          "style": {
+            "navigationBarTitleText": "报事报修"
+          }
+        },
+        {
+          "path": "flowRepair/comment/comment",
+          "style": {
+            "navigationBarTitleText": "评价"
+          }
+        }
+      ]
+    },
+    {
+      "root": "packageNotice",
+      "pages": [
+        {
+          "path": "notice/list/list",
+          "style": {
+            "navigationBarTitleText": "公告"
+          }
+        },
+        {
+          "path": "notice/item/item",
+          "style": {
+            "navigationBarTitleText": "公告详情"
+          }
+        }
+      ]
+    },
+    {
+      "root": "packageBill",
+      "pages": [
+        {
+          "path": "bill/bill",
+          "style": {
+            "navigationBarTitleText": "缴费"
+          }
+        },
+        {
+          "path": "bill/bill-comfirm",
+          "style": {
+            "navigationBarTitleText": "缴费"
+          }
+        },
+        {
+          "path": "bill/sichuan-pay",
+          "style": {
+            "navigationBarTitleText": "缴费"
+          }
+        },
+        {
+          "path": "bill/payment-white",
+          "style": {
+            "navigationBarTitleText": "缴费"
+          }
+        },
+        {
+          "path": "bill/success/success",
+          "style": {
+            "navigationBarTitleText": "缴费成功",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "contractBill/selectContract/selectContract",
+          "style": {
+            "navigationBarTitleText": "选择合同"
+          }
+        },
+        {
+          "path": "myLease/contract-list",
+          "style": {
+            "navigationBarTitleText": "我的租赁"
+          }
+        },
+        {
+          "path": "myLease/contract-detail",
+          "style": {
+            "navigationBarTitleText": "合同详情"
+          }
+        },
+        {
+          "path": "myLease/contract-bills",
+          "style": {
+            "navigationBarTitleText": "合同账单"
+          }
+        },
+        {
+          "path": "view-receipt/view-receipt",
+          "style": {
+            "navigationBarTitleText": "电子收据"
+          }
+        },
+        {
+          "path": "view-invoice/view-invoice",
+          "style": {
+            "navigationBarTitleText": "电子发票"
+          }
+        }
+      ]
+    },
+    {
+      "root": "packageForm",
+      "pages": [
+        {
+          "path": "new/new",
+          "style": {
+            "navigationBarTitleText": "新建审批申请"
+          }
+        },
+        {
+          "path": "new/choose-linkApply",
+          "style": {
+            "navigationBarTitleText": "选择申请单"
+          }
+        },
+        {
+          "path": "list/list",
+          "style": {
+            "navigationBarTitleText": "查看所有"
+          }
+        },
+        {
+          "path": "applyList/applyList",
+          "style": {
+            "navigationBarTitleText": "我的申请"
+          }
+        },
+        {
+          "path": "approvalDetail/approvalDetail",
+          "style": {
+            "navigationBarTitleText": "审批申请详情"
+          }
+        }
+      ]
+    },
+    {
+      "root": "packagePlace",
+      "pages": [
+        {
+          "path": "home/home",
+          "style": {
+            "navigationBarTitleText": "场所预约",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "prod-info/prod-info",
+          "style": {
+            "navigationBarTitleText": "场所预约",
+            "navigationStyle": "custom"
+          }
+        }
+      ]
+    },
+    {
+      "root": "packageCustomer",
+      "pages": [
+        {
+          "path": "employeeApplication/employeeApplication",
+          "style": {
+            "navigationBarTitleText": "员工申请"
+          }
+        },
+        {
+          "path": "employeeManage/employeeManage",
+          "style": {
+            "navigationBarTitleText": "员工管理"
+          }
+        },
+        {
+          "path": "addOrEdit/addOrEdit",
+          "style": {
+            "navigationBarTitleText": ""
+          }
+        },
+        {
+          "path": "employeeDetail/employeeDetail",
+          "style": {
+            "navigationBarTitleText": "员工详情"
+          }
+        }, 
+        {
+          "path": "customerMessage/customerMessage",
+          "style": {
+            "navigationBarTitleText": "提示信息"
+          }
+        }
+      ]
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "物业之家",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#f6f4f4"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#7C7C7C",
+    "selectedColor": "#34A853",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon-home.png",
+        "selectedIconPath": "static/icon-home-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/nova-mall/entry",
+        "iconPath": "static/index/sale-service.png",
+        "selectedIconPath": "static/index/sale-service.png",
+        "text": "商城"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "static/icon-me.png",
+        "selectedIconPath": "static/icon-me-active.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

@@ -1,0 +1,193 @@
+@import '~@common/styles/variables/index.less';
+
+.workorderwrap {
+  padding-bottom: 0px !important;
+  :global {
+    .@{ant-prefix}-tabs-nav {
+      // padding: 0.08rem 0.16rem;
+      font-size: 14px;
+      padding-bottom: 1px;
+    }
+
+    .@{ant-prefix}-tabs-tab {
+      padding: 0;
+      font-size: 14px;
+      color: transparent !important;
+    }
+
+    .@{ant-prefix}-drawer-header {
+      .@{ant-prefix}-drawer-header-title {
+        flex-direction: row-reverse;
+      }
+    }
+
+
+    .@{ant-prefix}-drawer-footer {
+      text-align: right;
+      padding-right: 24px;
+    }
+
+    .@{ant-prefix}-form-item {
+      min-height: 50px;
+      margin-bottom: 0;
+    }
+
+    .@{ant-prefix}-form-item-label {
+
+      span,
+      label {
+        font-size: 14px !important;
+      }
+    }
+
+    .@{ant-prefix}-descriptions-item-container {
+
+      .@{ant-prefix}-descriptions-item-label,
+      .@{ant-prefix}-descriptions-item-content {
+        font-size: 14px;
+      }
+
+      .@{ant-prefix}-descriptions-item-label {
+        width: 120px;
+        text-align: right;
+        display: block;
+        color: #666;
+      }
+
+      .@{ant-prefix}-descriptions-item-content {
+        color: #333;
+      }
+    }
+
+    .@{ant-prefix}-table.@{ant-prefix}-table-small {
+      font-size: 14px;
+    }
+
+    .@{ant-prefix}-table.@{ant-prefix}-table-small .@{ant-prefix}-table-tbody>tr {
+
+      &>td,
+      &>th {
+        padding: 0.05rem 0.1rem;
+        word-break: break-all;
+      }
+    }
+
+    .@{ant-prefix}-drawer-wrapper-body {
+      background-color: #fff !important;
+    }
+
+    .@{ant-prefix}-drawer-body {
+      padding: 24px !important;
+      background-color: #fff !important;
+    }
+
+    .@{ant-prefix}-table-thead>tr>th {
+      font-weight: bold;
+    }
+
+    .@{ant-prefix}-drawer-title {
+      color: rgba(0, 0, 0, .85);
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 22px;
+      text-align: left;
+    }
+
+    .@{ant-prefix}-anchor-ink::before {
+      width: 0px;
+    }
+
+    .@{ant-prefix}-anchor-link {
+      padding: 0;
+    }
+
+    .@{ant-prefix}-anchor-link-title {
+      padding: 16px 16px;
+    }
+
+    button {
+      margin-right: 0;
+    }
+  }
+
+
+
+  .topbar {
+    margin-bottom: 20px;
+    height: 30px;
+    .topInfo {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+
+      .gdno {
+        font-size: 18px;
+        font-weight: bold;
+      }
+    }
+
+    .btnsgroup {
+      text-align: right;
+    }
+  }
+
+
+
+  .content {
+    height: calc(100vh - 178px);
+    background-color: #f4f5f7 !important;
+    margin: -17px -24px -24px;
+    padding: 0 16px 16px;
+    overflow: auto;
+    &::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: #e6e6e6;
+    }
+  }
+
+  .baseinfo-image-wrapper{
+    width: 70px;
+    height: 70px;
+    margin-right: 5px;
+    .baseinfo-image{
+      height: inherit;
+      object-fit: contain;
+    }
+  }
+
+}
+
+.uploadPictrue {
+  :global {
+    .@{ant-prefix}-upload-list-picture-card-container{
+      width: 50px;
+      height: 50px;
+    }
+    .@{ant-prefix}-upload-list-picture-card .@{ant-prefix}-upload-list-item {
+      padding: 2px;
+    }
+  }
+}
+
+.uploadbasePic {
+  :global {
+    .@{ant-prefix}-upload-list-picture-card-container{
+      width: 70px;
+      height: 70px;
+    }
+    .@{ant-prefix}-upload-list-picture-card .@{ant-prefix}-upload-list-item {
+      padding: 2px;
+    }
+  }
+}
+
+.selfConfirmModal {
+  :global{
+    .anticon-exclamation-circle:before{
+      content: '' !important;
+    }
+  }
+}

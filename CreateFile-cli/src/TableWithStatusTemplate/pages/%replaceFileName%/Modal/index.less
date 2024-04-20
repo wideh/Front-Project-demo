@@ -1,0 +1,86 @@
+@import '~@common/styles/variables/index.less';
+
+.wrap {
+  :global {
+    .@{ant-prefix}-modal-body {
+      background: rgb(236, 236, 236);
+      padding: 8px;      
+    }
+
+    .@{ant-prefix}-steps-item-title {
+      width: 100%;
+    }
+
+    .@{ant-prefix}-card {
+      margin-bottom: 8px;
+    }
+    .@{ant-prefix}-formily-item-label-content, .@{ant-prefix}-form-item-label > label{
+      font-size: 14px;
+    }
+  }
+
+  .iconImg {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .approvalSuggestion {
+    height: 70px;
+    box-shadow: 0 -5px 5px #888;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 60vw;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+  }
+
+  .toolbal {
+    display: flex;
+    justify-content: space-between;
+    margin: -8px -8px 8px -8px;
+    padding: 12px 24px;
+    background: #fff;
+    color: rgba(0, 0, 0, 0.85);
+
+    .buttonWrap {
+      display: flex;
+      column-gap: 12px;
+    }
+  }
+
+  .fieldLabel {
+    text-align: right;
+    color: #999
+  }
+
+  .fieldValue {
+    word-break: break-all;
+  }
+
+  .flowWrap {
+    :global {
+      .@{ant-prefix}-collapse-header {
+        border-bottom: 1px solid #ececec;
+        padding: 12px 0 4px 0;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+      }
+
+      .@{ant-prefix}-form-item {
+        flex-wrap: nowrap;
+        align-items: baseline;
+      }
+
+      .@{ant-prefix}-form-item-control-input-content, .@{ant-prefix}-collapse-header {
+        font-size: 14px;
+      }
+    }
+  }
+}

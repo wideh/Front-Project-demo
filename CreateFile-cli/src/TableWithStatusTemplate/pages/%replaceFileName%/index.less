@@ -1,0 +1,31 @@
+@import '~@common/styles/variables/index.less';
+
+[class*="@{ant-prefix}-"] {
+  .cus-table-pro {
+    :global {
+      .@{ant-prefix}-card-head {
+        border: 0;
+      }
+      .@{ant-prefix}-pro-table .@{ant-prefix}-card .@{ant-prefix}-card-body {
+        padding: 24px;
+        .@{ant-prefix}-table-thead .@{ant-prefix}-table-cell {
+          font-weight: 600;
+        }
+      }
+      .@{ant-prefix}-table-pagination {
+        display: flex;
+        flex-wrap: wrap;
+        grid-row-gap: 8px;
+        row-gap: 8px;
+        margin: 16px 0 !important;
+      }
+    }
+  }
+  .workOrderAddModal {
+    :global {
+      .@{ant-prefix}-form-item {
+        margin-bottom: 24px;
+      }
+    }
+  }
+}

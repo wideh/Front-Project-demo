@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "缴费详情",
+  "usingComponents": {
+    "suda-loading": "/components/suda-loading/suda-loading",
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "user-privacy": "/components/userPrivacy/userPrivacy",
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

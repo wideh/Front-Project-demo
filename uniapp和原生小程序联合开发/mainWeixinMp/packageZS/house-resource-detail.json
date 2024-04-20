@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "房源详情",
+  "usingComponents": {
+    "uni-popup": "/node-modules/@dcloudio/uni-ui/lib/uni-popup/uni-popup",
+    "image-scale-popup": "/packageZS/components/image-scale-popup/image-scale-popup",
+    "no-img-default": "/components/no-img-default/no-img-default"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "订单确认",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "address-card": "/packageEC/components/address-card",
+    "order-card": "/packageEC/components/order-card"
+  }
+}

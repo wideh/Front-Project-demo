@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "全部功能",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "page-status-bar": "/components/page-status-bar/page-status-bar",
+    "suda-toast": "/components/suda-toast/suda-toast",
+    "custom-checkbox": "/components/custom-checkbox/custom-checkbox"
+  }
+}

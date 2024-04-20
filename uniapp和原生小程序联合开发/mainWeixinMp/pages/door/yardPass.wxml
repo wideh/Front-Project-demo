@@ -1,0 +1,1 @@
+<view><view><page-empty vue-id="4ea0993a-1" isFullScreen="{{true}}" title="{{errorTitle}}" bind:__l="__l"></page-empty></view><view style="position:fixed;bottom:0;width:100%;"><custom-footer vue-id="4ea0993a-2" data="{{footerData}}" bind:__l="__l"></custom-footer></view></view>

@@ -1,0 +1,1 @@
+.head{display:flex;flex-flow:row nowrap;justify-content:space-around;align-items:center}.head .content{flex:1;text-align:center}.head .content.active{color:#34a853;border-bottom:1rpx solid #34a853}

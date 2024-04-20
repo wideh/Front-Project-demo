@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "城市",
+  "usingComponents": {
+    "no-data": "/components/NoData",
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "选择城市",
+  "usingComponents": {
+    "suda-loading": "/components/suda-loading/suda-loading",
+    "uni-icons": "/node-modules/@dcloudio/uni-ui/lib/uni-icons/uni-icons",
+    "uni-search-bar": "/node-modules/@dcloudio/uni-ui/lib/uni-search-bar/uni-search-bar",
+    "suda-position-step": "/components/suda-position-step/suda-position-step",
+    "suda-postion-gps": "/components/suda-position-gps/suda-position-gps",
+    "uni-list-item": "/node-modules/@dcloudio/uni-ui/lib/uni-list-item/uni-list-item",
+    "uni-list": "/node-modules/@dcloudio/uni-ui/lib/uni-list/uni-list",
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

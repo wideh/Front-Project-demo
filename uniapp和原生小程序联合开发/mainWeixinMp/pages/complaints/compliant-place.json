@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "选择位置",
+  "usingComponents": {
+    "search": "/components/zy-search/zy-search",
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

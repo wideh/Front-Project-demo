@@ -1,0 +1,1 @@
+<block wx:if="{{canvasId&&!canvalImgUrl}}"><canvas style="width:750rpx;height:110rpx;" id="{{canvasId}}" canvasId="{{canvasId}}"></canvas></block><block wx:else><block wx:if="{{canvasId&&canvalImgUrl}}"><view style="line-height:1;"><image style="width:750rpx;height:110rpx;" mode="widthFix" src="{{canvalImgUrl}}"></image></view></block></block>

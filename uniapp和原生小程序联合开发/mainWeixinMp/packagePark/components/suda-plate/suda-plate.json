@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "suda-plate-item": "/packagePark/components/suda-plate-item/suda-plate-item",
+    "tki-float-keyboard": "/packagePark/components/tki-float-keyboard/tki-float-keyboard"
+  }
+}

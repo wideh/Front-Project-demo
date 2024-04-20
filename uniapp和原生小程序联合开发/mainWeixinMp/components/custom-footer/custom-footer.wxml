@@ -1,0 +1,1 @@
+<block wx:if="{{data}}"><view><block wx:if="{{data.showWechatFooter&&data.wechatFooterText}}"><view class="footer-container">{{data.wechatFooterText}}</view></block></view></block>

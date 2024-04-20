@@ -1,0 +1,1 @@
+<block wx:if="{{houseDetail&&applyInfo}}"><view><decoration-detail vue-id="b9c6b5e4-1" houseDetailItem="{{houseDetail}}" bind:__l="__l"></decoration-detail></view></block>

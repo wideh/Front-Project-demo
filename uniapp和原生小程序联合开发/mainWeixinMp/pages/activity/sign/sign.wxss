@@ -1,0 +1,1 @@
+.sign{padding-top:100rpx;height:100vh}.title{font-size:38rpx;font-weight:900;text-align:center;margin-bottom:50rpx}.img-container{display:flex;justify-content:center;margin-bottom:30rpx}.icon{width:150rpx;height:150rpx}.note{font-size:34rpx;text-align:center}.message{font-size:30rpx;text-align:center;color:#a1a1a1}

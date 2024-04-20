@@ -1,0 +1,1 @@
+.suda-position-gps{display:flex;justify-content:space-between;align-items:center;padding:5rpx 20rpx;color:#3f536e;font-size:28rpx}.suda-position-gps .location{display:flex;justify-content:space-between;align-items:center}.suda-position-gps .location .btn-setting{margin-left:10rpx}.suda-position-gps .location .city{color:#34a853}.suda-position-gps .link-relocated{color:#34a853}

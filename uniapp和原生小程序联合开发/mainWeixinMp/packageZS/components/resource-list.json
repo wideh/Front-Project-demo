@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "no-img-default": "/components/no-img-default/no-img-default"
+  }
+}

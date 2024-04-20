@@ -1,0 +1,1 @@
+.normal_item{line-height:50rpx;justify-content:space-between;font-size:28rpx;color:#999}.normal_item text:nth-child(2){color:#000}

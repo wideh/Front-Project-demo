@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "场所预约",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "page-status-bar": "/components/page-status-bar/page-status-bar",
+    "select-time": "/packagePlace/components/select-time",
+    "input-number": "/packagePlace/components/input-number"
+  }
+}

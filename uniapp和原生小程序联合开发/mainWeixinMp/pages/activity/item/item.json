@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "活动详情",
+  "usingComponents": {
+    "mp-html": "/components/mp-html/mp-html",
+    "u-popup": "/components/u-popup/u-popup",
+    "user-privacy": "/components/userPrivacy/userPrivacy",
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

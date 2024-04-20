@@ -1,0 +1,1 @@
+.main{position:absolute;bottom:55vh;width:750rpx;text-align:center}.main-page{background-color:rgba(0,0,0,.75);max-width:600rpx;display:inline-block;margin:0 auto;border-radius:10rpx;padding:20rpx 30rpx;word-break:break-all;white-space:normal}.main-page{color:#fff;font-size:30rpx}.suda-toats-title-left{text-align:left}

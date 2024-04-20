@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "开票历史",
+  "usingComponents": {
+    "invoice-item": "/packagePark/components/invoice-item/item",
+    "fill-email": "/packagePark/components/fill-email/fill-email",
+    "send-success": "/packagePark/components/send-success/send-success"
+  }
+}

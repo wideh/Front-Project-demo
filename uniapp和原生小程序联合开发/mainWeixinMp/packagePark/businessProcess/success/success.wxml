@@ -1,0 +1,1 @@
+<view class="container data-v-1e748214"><page-success vue-id="3796faa8-1" title="已提交申请！" buttonText="我的申请" data-event-opts="{{[['^buttonClick',[['onBtnOkClick']]]]}}" bind:buttonClick="__e" class="data-v-1e748214" bind:__l="__l"></page-success></view>

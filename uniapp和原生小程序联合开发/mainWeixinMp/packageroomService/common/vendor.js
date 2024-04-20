@@ -1,0 +1,1 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["packageroomService/common/vendor"],{"7e1c":function(e,o,a){"use strict";var c=a("4ea4");Object.defineProperty(o,"__esModule",{value:!0}),o.PRE_FIX=void 0;var n=c(a("7504")),r="/nova-customer-service/v1/".concat(n.default.tenantId);o.PRE_FIX=r}}]);

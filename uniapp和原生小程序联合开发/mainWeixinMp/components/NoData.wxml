@@ -1,0 +1,1 @@
+<block wx:if="{{visible}}"><view style="display:flex;flex-direction:column;justify-content:center;align-items:center;padding:50rpx;"><image style="width:196rpx;height:128rpx;margin-top:30rpx;" src="{{$root.m0}}"></image><text style="font-size:28rpx;color:#bfbfbf;">{{content}}</text></view></block>

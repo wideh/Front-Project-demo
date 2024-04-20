@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "发票详情",
+  "usingComponents": {
+    "fill-email": "/packagePark/components/fill-email/fill-email",
+    "send-success": "/packagePark/components/send-success/send-success",
+    "temp-bill-item": "/packagePark/components/temp-bill-item/item",
+    "field-item": "/packagePark/components/field-item/field-item"
+  }
+}

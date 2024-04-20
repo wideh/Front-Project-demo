@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "操作说明",
+  "usingComponents": {
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

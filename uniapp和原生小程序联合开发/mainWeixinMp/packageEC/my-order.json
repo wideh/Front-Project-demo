@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "我的订单",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "me-tabs": "/components/me-tabs/me-tabs",
+    "mescroll-item": "/packageEC/components/my-order-mescroll"
+  }
+}

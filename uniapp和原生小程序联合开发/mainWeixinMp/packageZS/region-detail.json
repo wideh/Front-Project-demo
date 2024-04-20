@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "楼盘详情",
+  "usingComponents": {
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "u-parse": "/components/gaoyia-parse/parse",
+    "no-img-default": "/components/no-img-default/no-img-default"
+  }
+}

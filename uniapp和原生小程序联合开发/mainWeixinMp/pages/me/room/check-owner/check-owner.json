@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "业主信息验证",
+  "usingComponents": {
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

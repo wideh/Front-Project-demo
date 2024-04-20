@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "缴费",
+  "usingComponents": {
+    "suda-loading": "/components/suda-loading/suda-loading",
+    "suda-toast": "/components/suda-toast/suda-toast",
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

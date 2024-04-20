@@ -1,0 +1,1 @@
+<view><web-view src="{{src}}"></web-view><view><custom-footer vue-id="6a0d19d6-1" data="{{footerData}}" bind:__l="__l"></custom-footer></view></view>

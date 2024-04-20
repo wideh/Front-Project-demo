@@ -1,0 +1,10 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "我的装修",
+  "usingComponents": {
+    "page-empty": "/components/page-empty/page-empty",
+    "decoration-list": "/packageDecoration/components/decoration-list/decoration-list",
+    "custom-footer": "/components/custom-footer/custom-footer",
+    "reform-list": "/packageDecoration/components/reform-list/reform-list"
+  }
+}

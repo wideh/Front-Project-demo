@@ -1,0 +1,1 @@
+<block wx:if="{{content!=null&&content!=''}}"><view class="uni-flex uni-row normal_item"><text>{{title}}</text><text>{{content+content1}}</text></view></block>

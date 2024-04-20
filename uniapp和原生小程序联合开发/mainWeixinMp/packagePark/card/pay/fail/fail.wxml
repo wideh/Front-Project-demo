@@ -1,0 +1,1 @@
+<view class="container"><view><image class="error center" src="https://pms-statics.oss-cn-shenzhen.aliyuncs.com/wechat-static/error.png"></image><view class="center text">支付失败</view></view><view class="button"><button type="primary" data-event-opts="{{[['tap',[['onBtnOkClick',['$event']]]]]}}" bindtap="__e">返回</button></view></view>

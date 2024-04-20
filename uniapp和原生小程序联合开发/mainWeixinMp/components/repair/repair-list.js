@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/repair/repair-list"],{"10b5":function(t,e,i){"use strict";(function(t){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var i={props:{repairInfo:Object,from:String},data:function(){return{createDate:""}},mounted:function(){this.createDate=this.$formatDate(this.repairInfo.createTime)},methods:{repairDetail:function(){"repair"==this.from?t.navigateTo({url:"/packageRepair/repair/detail/detail?id="+this.repairInfo.id}):t.navigateTo({url:"/pages/complaints/complaints-detail?id="+this.repairInfo.id})},goToComment:function(){"repair"==this.from?(console.log("报修评价"),t.navigateTo({url:"/packageRepair/repair/comment/comment?id="+this.repairInfo.id})):t.navigateTo({url:"/pages/complaints/complaint-comment?id="+this.repairInfo.id})}}};e.default=i}).call(this,i("543d")["default"])},2494:function(t,e,i){"use strict";var a=i("da6c"),n=i.n(a);n.a},4051:function(t,e,i){"use strict";i.d(e,"b",(function(){return a})),i.d(e,"c",(function(){return n})),i.d(e,"a",(function(){}));var a=function(){var t=this.$createElement;this._self._c},n=[]},ba81:function(t,e,i){"use strict";i.r(e);var a=i("10b5"),n=i.n(a);for(var r in a)["default"].indexOf(r)<0&&function(t){i.d(e,t,(function(){return a[t]}))}(r);e["default"]=n.a},da6c:function(t,e,i){},df88:function(t,e,i){"use strict";i.r(e);var a=i("4051"),n=i("ba81");for(var r in n)["default"].indexOf(r)<0&&function(t){i.d(e,t,(function(){return n[t]}))}(r);i("2494");var o=i("f0c5"),c=Object(o["a"])(n["default"],a["b"],a["c"],!1,null,null,null,!1,a["a"],void 0);e["default"]=c.exports}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/repair/repair-list-create-component',
+    {
+        'components/repair/repair-list-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("df88"))
+        })
+    },
+    [['components/repair/repair-list-create-component']]
+]);

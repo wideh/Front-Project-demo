@@ -1,0 +1,1 @@
+<view><web-view src="https://h5.sudawuye.com/da-lin-she/agreement.html"></web-view><view><custom-footer vue-id="13516d2c-1" data="{{footerData}}" bind:__l="__l"></custom-footer></view></view>

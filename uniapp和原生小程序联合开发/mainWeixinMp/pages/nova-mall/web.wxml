@@ -1,0 +1,1 @@
+<view><block wx:if="{{$root.m0}}"><web-view src="{{src}}"></web-view></block></view>

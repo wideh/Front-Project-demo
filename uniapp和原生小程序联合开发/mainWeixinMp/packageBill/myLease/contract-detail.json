@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "合同详情",
+  "usingComponents": {
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "item-view": "/packageBill/myLease/item-view"
+  }
+}

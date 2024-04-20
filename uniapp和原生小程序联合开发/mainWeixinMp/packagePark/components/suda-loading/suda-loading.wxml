@@ -1,0 +1,1 @@
+<view class="{{['suda-loading',isFullscreen?'full-screen':'']}}"><image class="icon" src="https://pms-statics.oss-cn-shenzhen.aliyuncs.com/wechat-static/loading.png"></image><view class="title">{{displayText}}</view></view>

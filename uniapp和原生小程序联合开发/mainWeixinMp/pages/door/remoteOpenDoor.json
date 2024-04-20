@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {
+    "suda-loading": "/components/suda-loading/suda-loading",
+    "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more",
+    "page-empty": "/components/page-empty/page-empty",
+    "uni-icons": "/node-modules/@dcloudio/uni-ui/lib/uni-icons/uni-icons",
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

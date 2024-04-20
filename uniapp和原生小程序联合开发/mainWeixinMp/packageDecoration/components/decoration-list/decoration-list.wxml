@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['receive']]]]}}" class="body" bindtap="__e"><view class="flex"><view><view class="express-number">{{"房间代码："+decorationInfo.roomCode}}</view><view class="time-type time">{{"装修开始日期："+$root.g0}}</view><view class="time-type time">{{"装修结束日期："+$root.g1}}</view></view><view class="receive">{{detailStatus}}</view></view></view>

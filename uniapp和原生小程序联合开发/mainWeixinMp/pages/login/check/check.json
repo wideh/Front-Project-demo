@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "完善个人信息",
+  "usingComponents": {
+    "uni-icons": "/node-modules/@dcloudio/uni-ui/lib/uni-icons/uni-icons",
+    "user-privacy": "/components/userPrivacy/userPrivacy",
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

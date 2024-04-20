@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "新增车辆",
+  "usingComponents": {
+    "suda-plate": "/components/suda-plate/suda-plate",
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

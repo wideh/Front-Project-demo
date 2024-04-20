@@ -1,0 +1,1 @@
+<view class="{{['data-v-a90841d6','uv-steps','uv-steps--'+direction]}}" style="{{$root.s0}}"><slot></slot></view>

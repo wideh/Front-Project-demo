@@ -1,0 +1,1 @@
+<view hidden="{{!(showPopup)}}" class="{{['suda-popup',showPopup?'fadeIn':'fadeOut']}}"><view data-event-opts="{{[['tap',[['onTap',['$event']]]]]}}" class="mask" bindtap="__e"></view><view class="popup-container"><slot></slot></view></view>

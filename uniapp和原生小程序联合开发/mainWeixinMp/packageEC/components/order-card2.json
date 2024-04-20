@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "prod-card": "/packageEC/components/prod-card"
+  }
+}

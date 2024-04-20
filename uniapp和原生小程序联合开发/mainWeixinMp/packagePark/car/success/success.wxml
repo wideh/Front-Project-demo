@@ -1,0 +1,1 @@
+<view><page-success vue-id="180773f2-1" title="新增车辆成功！" buttonText="返回" data-event-opts="{{[['^buttonClick',[['onButtonClick']]]]}}" bind:buttonClick="__e" bind:__l="__l"></page-success><view class="bottom-container"></view></view>

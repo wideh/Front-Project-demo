@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "我的投诉",
+  "usingComponents": {
+    "uni-segmented-control": "/node-modules/@dcloudio/uni-ui/lib/uni-segmented-control/uni-segmented-control",
+    "uni-tag": "/node-modules/@dcloudio/uni-ui/lib/uni-tag/uni-tag",
+    "repair-list": "/components/repair/repair-list",
+    "empty": "/components/page-empty/page-empty",
+    "return-home": "/components/return-home/return-home",
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

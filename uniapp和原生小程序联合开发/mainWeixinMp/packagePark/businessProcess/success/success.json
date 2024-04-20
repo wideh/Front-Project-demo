@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "完成",
+  "usingComponents": {
+    "page-success": "/components/page-success/page-success"
+  }
+}

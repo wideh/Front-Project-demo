@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "充值记录",
+  "usingComponents": {
+    "suda-loading": "/components/suda-loading/suda-loading",
+    "page-empty": "/components/page-empty/page-empty",
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

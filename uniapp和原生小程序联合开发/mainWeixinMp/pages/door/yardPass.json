@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "page-empty": "/components/page-empty/page-empty",
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

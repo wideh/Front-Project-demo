@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "外卖活动",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "sale-activity-detail-list": "/packageWM/components/sale-activity/sale-activity-detal-list",
+    "return-home": "/components/return-home/return-home",
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

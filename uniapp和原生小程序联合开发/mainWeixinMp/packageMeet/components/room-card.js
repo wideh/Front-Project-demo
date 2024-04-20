@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["packageMeet/components/room-card"],{"01ac":function(t,i,e){"use strict";i["a"]=function(t){t.options.wxsCallMethods||(t.options.wxsCallMethods=[])}},"0b71":function(t,i,e){"use strict";var n=e("9a56"),o=e.n(n);o.a},"9a56":function(t,i,e){},a8b4:function(t,i,e){"use strict";e.r(i);var n=e("ee64"),o=e("ce29");for(var r in o)["default"].indexOf(r)<0&&function(t){e.d(i,t,(function(){return o[t]}))}(r);e("0b71");var u=e("f0c5"),s=e("01ac"),a=Object(u["a"])(o["default"],n["b"],n["c"],!1,null,"2141031f",null,!1,n["a"],void 0);"function"===typeof s["a"]&&Object(s["a"])(a),i["default"]=a.exports},ce29:function(t,i,e){"use strict";e.r(i);var n=e("df32"),o=e.n(n);for(var r in n)["default"].indexOf(r)<0&&function(t){e.d(i,t,(function(){return n[t]}))}(r);i["default"]=o.a},df32:function(t,i,e){"use strict";Object.defineProperty(i,"__esModule",{value:!0}),i.default=void 0;var n={props:{item:{type:Object,default:function(){}}},data:function(){return{}},computed:{roomInfo:function(){var t=[];return this.item.district&&t.push(this.item.district),this.item.buildingNo&&t.push(this.item.buildingNo),this.item.floor&&t.push(this.item.floor),this.item.area&&t.push(this.item.area+"㎡"),t.join("/")},prodInfo:function(){return this.item.prodInfo?this.item.prodInfo:{price:0,pic:"",unit:"小时"}},prodLabelList:function(){return this.item.prodInfo&&this.item.prodInfo.labelList&&this.item.prodInfo.labelList.length?this.item.prodInfo.labelList:[]}},methods:{}};i.default=n},ee64:function(t,i,e){"use strict";e.d(i,"b",(function(){return n})),e.d(i,"c",(function(){return o})),e.d(i,"a",(function(){}));var n=function(){var t=this.$createElement;this._self._c},o=[]}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'packageMeet/components/room-card-create-component',
+    {
+        'packageMeet/components/room-card-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("a8b4"))
+        })
+    },
+    [['packageMeet/components/room-card-create-component']]
+]);

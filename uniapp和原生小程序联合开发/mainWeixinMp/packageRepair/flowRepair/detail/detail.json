@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "报事报修详情",
+  "usingComponents": {
+    "suda-popup": "/components/suda-popup/suda-popup",
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "uni-tag": "/node-modules/@dcloudio/uni-ui/lib/uni-tag/uni-tag",
+    "custom-footer": "/components/custom-footer/custom-footer",
+    "sx-rate": "/packageRepair/components/sx-rate/index"
+  }
+}

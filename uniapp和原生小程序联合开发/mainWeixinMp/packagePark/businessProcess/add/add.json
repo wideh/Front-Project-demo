@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "选择车牌号",
+  "usingComponents": {
+    "suda-plate": "/packagePark/components/suda-plate/suda-plate"
+  }
+}

@@ -1,0 +1,321 @@
+/* pages/DetailsOfRefund/DetailsOfRefund.wxss */
+.display {
+  display: none;
+}
+image {
+  width: 100%;
+  height: 100%;
+}
+.page {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background: #f6f4f4;
+}
+/* 头部状态 */
+.describe-box {
+  background: #fff;
+  margin-bottom: 20rpx;
+}
+.process {
+  padding: 20rpx 25rpx;
+  border-bottom: 1rpx solid #f2f2f2;
+}
+.current-process {
+  font-size: 30rpx;
+  font-weight: bold;
+  padding: 10rpx 0;
+}
+.acount-for-process {
+  font-size: 26rpx;
+  color: #444;
+  line-height: 1.5em;
+  margin-top: 10rpx;
+}
+.red {
+  color: #e43130;
+}
+
+/* 整单退款商品列表 */
+.refund-goods-item{
+  padding: 20rpx 0;
+  border-bottom: 2rpx solid #ddd;
+}
+.refund-goods-item:last-child{
+  border-bottom:none;
+}
+
+/* 隐藏内容 */
+.more-content {
+  border-top: 1rpx dashed #ebebeb;
+  margin-top: 15rpx;
+  padding-top: 10rpx;
+}
+.cont {
+  font-size: 26rpx;
+  color: #777;
+  line-height: 1.8em
+}
+/* 更多说明 */
+.more-instructions {
+  padding: 10rpx 0;
+  padding-bottom: 15rpx;
+  text-align: center;
+  font-size: 25rpx;
+}
+.more-txt {
+  vertical-align: middle;
+}
+.down-arrow-icon {
+  display: inline-block;
+  width: 40rpx;
+  height: 25rpx;
+  vertical-align: middle;
+}
+
+
+/* 退款流程 */
+.refund-schedule {
+  background: #fff;
+  margin-bottom: 20rpx;
+  padding: 0 25rpx;
+}
+.refund-sum {
+  font-size: 28rpx;
+  padding: 25rpx 0;
+  border-bottom: 1rpx solid #f2f2f2;
+}
+.progress-bar {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  padding: 20rpx 0;
+}
+.block {
+  display: inline-block;
+  text-align: center;
+}
+.round {
+  display: block;
+  width: 13rpx;
+  height: 13rpx;
+  border-radius: 50%;
+  background: #999999;
+  margin: 0 auto;
+  margin-top: 15rpx;
+}
+/* 激活状态圆点 */
+.round-current {
+  background: #3388ff;
+}
+.block-text {
+  margin-top: 15rpx;
+  text-align: center;
+}
+.block-text-tit {
+  font-size: 26rpx;
+  line-height: 2em;
+  color: #777;
+}
+.block-text-time {
+  font-size: 22rpx;
+  color: #aaa;
+}
+.line {
+  position: absolute;
+  top: 39rpx;
+  display: inline-block;
+  width: 215rpx;
+  height: 5rpx;
+  background: #bdbdbd;
+}
+/* 激活状态直线 */
+.line-current {
+  background: #3388ff;
+}
+.line01 {
+  left: 145rpx;
+}
+.line02 {
+  right: 115rpx;
+}
+
+/* 拒绝理由 */
+.refuse-reason {
+  font-size: 28rpx;
+  background: #fff;
+  padding: 20rpx;
+  margin-bottom: 20rpx;
+  word-break: break-all;
+}
+
+
+/* 退货地址 */
+.return-address {
+  background: #fff;
+  margin-bottom: 20rpx;
+}
+.addr-tit {
+  padding: 10rpx 20rpx;
+  border-bottom: 1rpx solid #f2f2f2;
+  font-size: 28rpx;
+}
+.addr {
+  font-size: 14px;
+  display: -webkit-box;
+  /* -webkit-line-clamp: 2; */
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.address {
+  padding: 20rpx;
+  font-size: 25rpx;
+}
+.recipient {
+  padding-bottom: 10rpx;
+}
+.mobile {
+  margin-left: 50rpx;
+}
+
+
+
+
+/* 查看协商记录 */
+/* .negotiate-record {
+  position: relative;
+  font-size: 25rpx;
+  text-align: left;
+  background: #fff;
+  padding: 20rpx 25rpx;
+  margin-bottom: 20rpx;
+}
+.more-arrow {
+  position: absolute;
+  right: 20rpx;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 22rpx;
+  height: 22rpx;
+} */
+
+
+/* 退款信息 */
+.refund-message {
+  background: #fff;
+  padding: 20rpx 25rpx;
+}
+.refund-txt {
+  font-size: 28rpx;
+  margin-bottom: 25rpx;
+  font-weight: bold;
+}
+
+/* 商品信息 */
+.goods-msg-box {
+  background: #f9f9f9;
+  padding: 15rpx 20rpx;
+  margin: 15rpx 0;
+}
+.img-box {
+  display: inline-block;
+  width: 150rpx;
+  height: 150rpx;
+  margin-right: 20rpx;
+  background: #eee;
+  vertical-align: top;
+}
+.goods-text {
+  display: inline-block;
+  vertical-align: top;
+  width: 70%;
+}
+.goods-title {
+  font-size: 28rpx;
+}
+.goods-quantity {
+  font-size: 26rpx;
+  color: #888;
+  margin-top: 20rpx;
+}
+/* 具体信息 */
+.refund-cont {
+  font-size: 28rpx;
+  color: #666;
+  line-height: 2em;
+	word-break: break-all;
+}
+/* 退款说明 */
+.refund-desc-con {
+	display: flex;
+}
+.refund-desc-tit {
+	word-break: keep-all;
+}
+.refund-desc-desc {
+	word-break: break-all;
+}
+/* 联系商家 */
+.contact-merchant {
+  font-size: 28rpx;
+  color: #57b2fcfd;
+  text-align: center;
+  padding-top: 20rpx;
+  margin-top: 20rpx;
+  border-top: 1rpx solid #f2f2f2;
+  line-height: 1.5em;
+}
+button.contact-merchant{
+  background: #fff;
+}
+button.contact-merchant::after{
+  border:0;
+}
+
+
+/* 脚部撤销 */
+.foot-box {
+  display: block;
+  margin-top: 150rpx;
+}
+.footer {
+  display: block;
+  box-sizing: border-box;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  font-size: 28rpx;
+  background: #fff;
+  padding: 0 30rpx;
+  text-align: right;
+  box-shadow: 1rpx 10rpx 10rpx 10rpx rgb(236, 236, 236);
+}
+.undo-apply {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 15rpx 20rpx;
+  font-size: 26rpx;
+  border-radius: 5rpx;
+  margin: 25rpx 0;
+  margin-left: 15rpx;
+  border: 1rpx solid #eee;
+  color: #555;
+}
+.undo-apply-end {
+  display: inline-block;
+  box-sizing: border-box;
+  margin-left: 15rpx;
+  color: #555;
+  font-size: 30rpx;
+
+}
+.apply-current {
+  border: 1rpx solid rgb(0, 173, 0);
+  color: rgb(0, 173, 0);
+  
+}
+
+

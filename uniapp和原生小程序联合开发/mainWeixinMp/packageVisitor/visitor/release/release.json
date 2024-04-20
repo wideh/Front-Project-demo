@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "放行记录",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 50,
+  "usingComponents": {
+    "page-empty": "/components/page-empty/page-empty",
+    "suda-release-card": "/packageVisitor/components/suda-release-card/suda-release-card"
+  }
+}

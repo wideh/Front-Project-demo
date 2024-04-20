@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "发票抬头",
+  "usingComponents": {
+    "u-modal": "/components/u-modal/u-modal"
+  }
+}

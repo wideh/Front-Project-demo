@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "选择房间",
+  "usingComponents": {
+    "suda-loading": "/components/suda-loading/suda-loading",
+    "suda-room-card": "/components/suda-room-card/suda-room-card",
+    "page-empty": "/components/page-empty/page-empty",
+    "user-privacy": "/components/userPrivacy/userPrivacy",
+    "room-use-agreement": "/components/room-useagreement/room-useagreement",
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

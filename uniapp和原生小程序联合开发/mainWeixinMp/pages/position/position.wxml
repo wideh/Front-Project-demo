@@ -1,0 +1,1 @@
+<view><suda-loading vue-id="47401120-1" isFullscreen="{{true}}" bind:__l="__l"></suda-loading><view><custom-footer vue-id="47401120-2" data="{{footerData}}" bind:__l="__l"></custom-footer></view></view>

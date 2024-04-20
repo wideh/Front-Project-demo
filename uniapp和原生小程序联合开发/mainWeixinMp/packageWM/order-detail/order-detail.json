@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "订单详情",
+  "usingComponents": {
+    "order-detail-head": "/packageWM/components/order-detail/order-detail-head",
+    "order-detail-list": "/packageWM/components/order-detail/order-detail-list",
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

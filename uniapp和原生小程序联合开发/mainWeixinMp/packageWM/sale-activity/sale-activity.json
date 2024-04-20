@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "外卖服务",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "activity-head": "/packageWM/components/sale-activity/sale-activity-head",
+    "activity-list": "/packageWM/components/sale-activity/sale-activity-list",
+    "return-home": "/components/return-home/return-home",
+    "empty": "/components/page-empty/page-empty",
+    "reach-bottom": "/packageWM/components/reachBottom/reach-bottom",
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

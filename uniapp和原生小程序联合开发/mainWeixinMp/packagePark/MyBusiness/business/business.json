@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "我的业务",
+  "usingComponents": {
+    "me-tabs": "/packagePark/components/me-tabs/me-tabs",
+    "item": "/packagePark/MyBusiness/components/item/item"
+  }
+}

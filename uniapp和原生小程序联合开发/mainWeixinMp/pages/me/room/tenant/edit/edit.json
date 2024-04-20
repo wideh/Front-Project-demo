@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "user-privacy": "/components/userPrivacy/userPrivacy",
+    "uni-icons": "/node-modules/@dcloudio/uni-ui/lib/uni-icons/uni-icons",
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

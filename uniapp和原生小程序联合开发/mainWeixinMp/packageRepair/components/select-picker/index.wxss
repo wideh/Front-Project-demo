@@ -1,0 +1,1 @@
+.pop-btn-wrapper{display:flex;justify-content:space-between;align-items:center;padding:10rpx 28rpx;border-bottom:2rpx solid #eee}.pop-cancel-btn, .pop-comfirm-btn{font-size:36rpx;color:grey}.pop-comfirm-btn{color:#42b983}.pop-view-column{height:616rpx;text-align:center}.pop-column-item{font-size:30rpx;line-height:2.2}

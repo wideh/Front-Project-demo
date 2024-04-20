@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "开具发票",
+  "usingComponents": {
+    "suda-popup": "/components/suda-popup/suda-popup",
+    "field-item": "/packagePark/components/field-item/field-item"
+  }
+}

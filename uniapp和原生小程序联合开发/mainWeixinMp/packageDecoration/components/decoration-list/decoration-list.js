@@ -1,0 +1,10 @@
+require('../../common/vendor.js');(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["packageDecoration/components/decoration-list/decoration-list"],{4372:function(t,e,a){},"45a8":function(t,e,a){"use strict";Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var n={data:function(){return{detailStatus:""}},props:{decorationInfo:Object},methods:{receive:function(){this.$emit("receive",this.decorationInfo)}},created:function(){var t=this.decorationInfo;switch(console.log(t),t.status){case 0:this.detailStatus="审批中";break;case 1:this.detailStatus="装修中";break;case 2:this.detailStatus="验收中";break;case 3:this.detailStatus="验收合格";break;case 4:this.detailStatus="已关闭";break;case 5:this.detailStatus="验收不合格";break}}};e.default=n},"58f6":function(t,e,a){"use strict";var n=a("4372"),i=a.n(n);i.a},6046:function(t,e,a){"use strict";a.r(e);var n=a("c8e1"),i=a("a1c2");for(var o in i)["default"].indexOf(o)<0&&function(t){a.d(e,t,(function(){return i[t]}))}(o);a("58f6");var s=a("f0c5"),c=Object(s["a"])(i["default"],n["b"],n["c"],!1,null,null,null,!1,n["a"],void 0);e["default"]=c.exports},a1c2:function(t,e,a){"use strict";a.r(e);var n=a("45a8"),i=a.n(n);for(var o in n)["default"].indexOf(o)<0&&function(t){a.d(e,t,(function(){return n[t]}))}(o);e["default"]=i.a},c8e1:function(t,e,a){"use strict";a.d(e,"b",(function(){return n})),a.d(e,"c",(function(){return i})),a.d(e,"a",(function(){}));var n=function(){var t=this.$createElement,e=(this._self._c,this.$formatDateNewTime(this.decorationInfo.startTs)),a=this.$formatDateNewTime(this.decorationInfo.endTs);this.$mp.data=Object.assign({},{$root:{g0:e,g1:a}})},i=[]}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'packageDecoration/components/decoration-list/decoration-list-create-component',
+    {
+        'packageDecoration/components/decoration-list/decoration-list-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("6046"))
+        })
+    },
+    [['packageDecoration/components/decoration-list/decoration-list-create-component']]
+]);

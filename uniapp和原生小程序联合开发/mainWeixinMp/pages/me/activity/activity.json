@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "我的活动",
+  "usingComponents": {
+    "suda-loading": "/components/suda-loading/suda-loading",
+    "suda-activity-card": "/components/suda-activity-card/suda-activity-card",
+    "page-empty": "/components/page-empty/page-empty",
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

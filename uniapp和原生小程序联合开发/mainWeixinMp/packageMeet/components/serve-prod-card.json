@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-icon": "/components/u-icon/u-icon",
+    "u-number-box": "/components/u-number-box/u-number-box",
+    "u-popup": "/components/u-popup/u-popup"
+  }
+}

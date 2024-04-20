@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "充值",
+  "usingComponents": {
+    "uni-icons": "/node-modules/@dcloudio/uni-ui/lib/uni-icons/uni-icons",
+    "suda-popup": "/components/suda-popup/suda-popup",
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

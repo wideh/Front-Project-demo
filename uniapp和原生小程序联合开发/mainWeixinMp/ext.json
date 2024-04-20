@@ -1,0 +1,26 @@
+{
+	"extEnable": true,
+	"extAppid": "wx5e30abe44a95d61b",
+	"directCommit": false,
+	"ext": {
+		"name": "wechat",
+		"appName": "物业之家",
+    "appVersion": "1.0.8",
+    "tenantId": 143,
+    "clientId":"wechat-mini",
+    "clientSecret":"123456",
+    "apiBaseUrl":"http://10.10.120.26:8080",
+    "apiWYStaticResUrl":"http://10.10.120.171:8091",
+    "appCode":"NAPP_20211223fUx8fivf",
+    "novaMallH5PageUrl":"https://demo8mallh5.paas.wuyezhijia.cn",
+		"forumH5PageUrl": "http://10.10.120.126:5173",
+    "shopId": 9,
+    "paidType": 17,
+		"prePaidType": 18,
+		"activityPaidType": 19,
+		"miniProgramCode": "WECHAT-MINI",
+    "merchantProgramAppId": "wx187ef82049c8824b",
+  	"subscribedMsgId": "2lvz6T7G1joqPeHqBLYbjHFdsZqjitEr3yxu0yjkNTs",
+  	"isOpenSubscribedMsg": false
+	}
+}

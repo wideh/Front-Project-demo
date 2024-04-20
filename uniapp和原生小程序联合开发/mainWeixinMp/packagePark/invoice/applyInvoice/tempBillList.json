@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "临停缴费记录",
+  "usingComponents": {
+    "temp-bill-item": "/packagePark/components/temp-bill-item/item"
+  }
+}

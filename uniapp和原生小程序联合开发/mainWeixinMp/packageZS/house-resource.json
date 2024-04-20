@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "招商租赁",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "suda-loading": "/components/suda-loading/suda-loading",
+    "drop-down-menu": "/packageZS/components/dropdown-menu",
+    "position-select": "/packageZS/components/position-select",
+    "area-select": "/packageZS/components/area-select",
+    "tag-select": "/packageZS/components/tag-select",
+    "resource-list": "/packageZS/components/resource-list",
+    "region-area-list": "/packageZS/components/region-area-list",
+    "region-type-select": "/packageZS/components/region-type-select",
+    "region-area-input": "/packageZS/components/region-area-input"
+  }
+}

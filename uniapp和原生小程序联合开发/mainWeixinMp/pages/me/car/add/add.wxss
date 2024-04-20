@@ -1,0 +1,1 @@
+.container{padding:30rpx}.title{color:#333;height:44rpx;font-size:32rpx;font-weight:700;line-height:24rpx}.note{height:40rpx;font-size:24rpx;line-height:40rpx;color:#9c9d9e}.plate-container{display:flex;align-items:center;justify-content:center;margin-top:30rpx;height:176rpx;background:#fff;box-shadow:0 6rpx 12rpx rgba(0,0,0,.16);border-radius:10rpx}.btn-search{margin-top:80rpx}

@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "租会议室",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-icon": "/components/u-icon/u-icon",
+    "h-loading": "/components/h-loading/h-loading",
+    "u-popup": "/components/u-popup/u-popup",
+    "room-card-detail": "/packageMeet/components/room-card-detail",
+    "select-serve": "/packageMeet/components/select-serve",
+    "time-line": "/packageMeet/components/time-line",
+    "serve-prod-card": "/packageMeet/components/serve-prod-card",
+    "select-time": "/packageMeet/components/select-time"
+  }
+}

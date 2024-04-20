@@ -1,0 +1,1 @@
+<view hidden="{{!(isDisplay)}}" class="main"><view class="{{['main-page',(contentLeft)?'suda-toats-title-left':'']}}">{{title}}</view></view>

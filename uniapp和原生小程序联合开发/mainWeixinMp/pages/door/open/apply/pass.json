@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "申请通过",
+  "usingComponents": {
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

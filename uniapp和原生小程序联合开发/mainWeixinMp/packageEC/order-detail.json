@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "订单详情",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#e43130",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "u-icon": "/components/u-icon/u-icon",
+    "u-modal": "/components/u-modal/u-modal",
+    "h-loading": "/components/h-loading/h-loading",
+    "u-popup": "/components/u-popup/u-popup",
+    "order-detail-status": "/packageEC/components/order-detail-status",
+    "prod-card": "/packageEC/components/prod-card"
+  }
+}

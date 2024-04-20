@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "邀请卡",
+  "usingComponents": {
+    "page-empty": "/components/page-empty/page-empty",
+    "suda-visitor-card": "/packageVisitor/components/suda-visitor-card/suda-visitor-card",
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

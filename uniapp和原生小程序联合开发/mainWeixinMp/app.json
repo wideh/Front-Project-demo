@@ -1,0 +1,334 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/door/opendoor",
+        "pages/me/me",
+        "pages/user-account/resource-list",
+        "pages/user-account/charge",
+        "pages/user-account/charge-history",
+        "pages/select-room/select-city",
+        "pages/select-room/select-region",
+        "pages/select-room/select-building",
+        "pages/select-room/select-room",
+        "pages/select-room/select-point-building",
+        "pages/select-room/select-point-unit",
+        "pages/select-room/select-point-room",
+        "pages/me/setting/setting",
+        "pages/me/nickname/nickname",
+        "pages/me/activity/activity",
+        "pages/me/room/room",
+        "pages/me/room/role/role",
+        "pages/me/room/add/add",
+        "pages/me/room/add-success/add-success",
+        "pages/me/room/check-owner/check-owner",
+        "pages/me/room/member/member",
+        "pages/me/room/tenant/tenant",
+        "pages/login/weixin/weixin",
+        "pages/position/city/city",
+        "pages/position/area/area",
+        "pages/position/building/building",
+        "pages/position/community/community",
+        "pages/position/pms-company/pms-company",
+        "pages/position/saas-region/saas-region",
+        "pages/position/parking-lot/parking-lot",
+        "pages/position/parking-space/parking-space",
+        "pages/position/building-lot/building-lot",
+        "pages/me/room/member/edit/edit",
+        "pages/me/room/tenant/edit/edit",
+        "pages/me/room/member/success/success",
+        "pages/me/room/tenant/success/success",
+        "pages/me/car/car",
+        "pages/me/car/add/add",
+        "pages/me/parking/parking",
+        "pages/me/parking/add/add",
+        "pages/me/parking/success/success",
+        "pages/me/car/success/success",
+        "pages/me/message/message",
+        "pages/door/description/description",
+        "pages/me/select/room-and-parking/room-and-parking",
+        "pages/position/position",
+        "pages/position/unit/unit",
+        "pages/position/room/room",
+        "pages/position/room/room_old",
+        "pages/login/check/check",
+        "pages/activity/activity",
+        "pages/activity/item/item",
+        "pages/activity/detail-webview/detail-webview",
+        "pages/me/history-bill/history-bill",
+        "pages/me/phone/phone",
+        "pages/me/recharge/recharge",
+        "pages/me/recharge/log/log",
+        "pages/me/debug-page/debug-page",
+        "pages/me/recharge/success/success",
+        "pages/bill/success/success",
+        "pages/about/about",
+        "pages/about/agreement/agreement",
+        "pages/door/success/success",
+        "pages/door/open/apply/apply",
+        "pages/door/open/apply/result",
+        "pages/door/open/apply/pass",
+        "pages/door/open/apply/fail",
+        "pages/activity/success/success",
+        "pages/activity/sign/sign",
+        "pages/complaints/complaints",
+        "pages/complaints/complaints-desc",
+        "pages/complaints/complaints-evaluation",
+        "pages/complaints/evaluation-advice",
+        "pages/complaints/complaint-list",
+        "pages/complaints/compliant-place",
+        "pages/complaints/compliant-area",
+        "pages/complaints/success",
+        "pages/web/web",
+        "pages/me/room/room-prompt/room-prompt",
+        "components/room-useagreement/room-useagreement",
+        "pages/me/history-pay/history-pay",
+        "pages/me/history-pay/history-paydetail/history-paydetail",
+        "pages/me/history-pay/request_invoices/request_invoices",
+        "pages/me/history-pay/request_invoices/request_wyinvoices",
+        "pages/me/history-pay/request_success/request_success",
+        "pages/me/history-pay/view_invoices/view_invoices",
+        "pages/me/history-pay/send_invoices/send_invoices",
+        "pages/nova-mall/entry",
+        "pages/nova-mall/web",
+        "pages/forum/forum",
+        "pages/nova-mall/pointWeb",
+        "pages/bill/empty-pay",
+        "pages/all-menus/all-menus"
+    ],
+    "subPackages": [
+        {
+            "root": "packageroomService",
+            "pages": [
+                "serviceType",
+                "serviceForm"
+            ]
+        },
+        {
+            "root": "packageEC",
+            "pages": [
+                "confirm-order",
+                "my-order",
+                "pay-way",
+                "order-detail",
+                "apply-refund",
+                "after-sales",
+                "detail-of-refund",
+                "pay-result"
+            ]
+        },
+        {
+            "root": "packagePark",
+            "pages": [
+                "car/car",
+                "car/add/add",
+                "car/success/success",
+                "park/add/add",
+                "park/pay/pay",
+                "park/pay/success/success",
+                "park/pay/fail/fail",
+                "card/card",
+                "card/order/order",
+                "card/pay/fail/fail",
+                "card/pay/success/success",
+                "MyBusiness/pay/fail/fail",
+                "MyBusiness/pay/success/success",
+                "MyBusiness/business/business",
+                "businessProcess/businessProcess/businessProcess",
+                "businessProcess/add/add",
+                "businessProcess/add/add-address",
+                "businessProcess/success/success",
+                "invoice/index",
+                "invoice/applyInvoice/tempBillList",
+                "invoice/applyInvoice/apply",
+                "invoice/moreInfo/moreInfo",
+                "invoice/invoiceHistory/detail",
+                "invoice/invoiceHistory/invoiceHistory",
+                "invoice/applyInvoice/result",
+                "invoice/invoiceHead/invoiceHead",
+                "invoice/invoiceHead/detail",
+                "invoice/invoiceHead/edit",
+                "invoice/invoiceHead/add"
+            ]
+        },
+        {
+            "root": "packageKD",
+            "pages": [
+                "parcel/parcel",
+                "parcel/receive",
+                "parcel/success-receive"
+            ]
+        },
+        {
+            "root": "packageWM",
+            "pages": [
+                "sale-activity/sale-activity",
+                "sale-activity/sale-activity-detail",
+                "sale-activity/history-sale-activity-detail",
+                "sale-activity/sale-activity-order",
+                "order/order",
+                "order-detail/order-detail",
+                "paywhite/paywhite",
+                "pay-result-webview/pay-result-webview"
+            ]
+        },
+        {
+            "root": "packageMeet",
+            "pages": [
+                "meet-lease",
+                "meet-lease-detail",
+                "meet-lease-period"
+            ]
+        },
+        {
+            "root": "packageZS",
+            "pages": [
+                "house-resource",
+                "house-resource-detail",
+                "vr-detail",
+                "house-resource-suppose",
+                "house-resource-suppose-list",
+                "house-resource-suppose-detail",
+                "region-detail",
+                "house-resource-no-tab"
+            ]
+        },
+        {
+            "root": "packageDecoration",
+            "pages": [
+                "detail/detail",
+                "notice/notice",
+                "new/new",
+                "new-success/new-success",
+                "history/history",
+                "acceptance-success/acceptance-success",
+                "new-acceptance/new-acceptance",
+                "select/room-and-parking/room-and-parking",
+                "reform-detail/reform-detail"
+            ]
+        },
+        {
+            "root": "packageVote",
+            "pages": [
+                "voteList/voteList",
+                "voteDetail/voteDetail"
+            ]
+        },
+        {
+            "root": "packageConvenience",
+            "pages": [
+                "conveniencelist/conveniencelist",
+                "convenienceDetail/convenienceDetail"
+            ]
+        },
+        {
+            "root": "packageVisitor",
+            "pages": [
+                "visitor/add/add",
+                "visitor/item/item",
+                "visitor/list/list",
+                "visitor/release/release"
+            ]
+        },
+        {
+            "root": "packageRepair",
+            "pages": [
+                "repair/new/new",
+                "repair/history/history",
+                "repair/rework/rework",
+                "repair/detail/detail",
+                "repair/rework-success/rework-success",
+                "repair/new-success/new-success",
+                "repair/comment/comment",
+                "flowRepair/new/new",
+                "flowRepair/history/history",
+                "flowRepair/rework/rework",
+                "flowRepair/detail/detail",
+                "flowRepair/rework-success/rework-success",
+                "flowRepair/new-success/new-success",
+                "flowRepair/comment/comment"
+            ]
+        },
+        {
+            "root": "packageNotice",
+            "pages": [
+                "notice/list/list",
+                "notice/item/item"
+            ]
+        },
+        {
+            "root": "packageBill",
+            "pages": [
+                "bill/bill",
+                "bill/bill-comfirm",
+                "bill/success/success",
+                "contractBill/selectContract/selectContract",
+                "myLease/contract-list",
+                "myLease/contract-detail",
+                "myLease/contract-bills",
+                "view-receipt/view-receipt",
+                "view-invoice/view-invoice"
+            ]
+        },
+        {
+            "root": "packageForm",
+            "pages": [
+                "new/new",
+                "new/choose-linkApply",
+                "list/list",
+                "applyList/applyList",
+                "approvalDetail/approvalDetail"
+            ]
+        },
+        {
+            "root": "packagePlace",
+            "pages": [
+                "home/home",
+                "prod-info/prod-info"
+            ]
+        }
+    ],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "物业之家",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "backgroundColor": "#f6f4f4"
+    },
+    "tabBar": {
+        "custom": true,
+        "color": "#7C7C7C",
+        "selectedColor": "#34A853",
+        "backgroundColor": "#FFFFFF",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "iconPath": "static/icon-home.png",
+                "selectedIconPath": "static/icon-home-active.png",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/nova-mall/entry",
+                "iconPath": "static/index/sale-service.png",
+                "selectedIconPath": "static/index/sale-service.png",
+                "text": "商城"
+            },
+            {
+                "pagePath": "pages/me/me",
+                "iconPath": "static/icon-me.png",
+                "selectedIconPath": "static/icon-me-active.png",
+                "text": "我的"
+            }
+        ]
+    },
+    "permission": {
+        "scope.userLocation": {
+            "desc": "你的位置信息将用于小程序获取管理区"
+        }
+    },
+    "navigateToMiniProgramAppIdList": [
+        "wx2cd24bc8eff852d7",
+        "wxd2ade0f25a874ee2"
+    ],
+    "__usePrivacyCheck__": true,
+    "usingComponents": {},
+    "sitemapLocation": "sitemap.json"
+}

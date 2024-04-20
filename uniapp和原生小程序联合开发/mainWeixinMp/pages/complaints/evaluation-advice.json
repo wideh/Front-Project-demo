@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "投诉建议",
+  "usingComponents": {
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "user-privacy": "/components/userPrivacy/userPrivacy"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "报修单详情",
+  "usingComponents": {
+    "uni-tag": "/node-modules/@dcloudio/uni-ui/lib/uni-tag/uni-tag",
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

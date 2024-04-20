@@ -1,0 +1,197 @@
+function toPrice(val) {
+  if (!val) {
+    val = 0;
+  }
+	val = Number(val)
+  return val.toFixed(2);
+}
+
+;
+
+function parsePrice(val) {
+  if (!val) {
+    val = 0;
+  }
+
+  return val.toFixed(2).split(".");
+} // 取整
+
+
+function rounding(val) {
+  if (!val) {
+    val = 0;
+  }
+
+  return parseInt(val);
+}
+
+function array_contain(array, obj) {
+  for (var i = 0; i < array.length; i++) {
+    if (array[i] == obj) //如果要求数据类型也一致，这里可使用恒等号===
+      return true;
+  }
+
+  return false;
+} //判断当前的规格值 是否可以选，即其他
+
+
+function props_contain(allProperties, selectedPropObj, key, item, propKeys) {
+  var properties = "";
+  selectedPropObj[key] = item;
+
+  for (var j = 0; j < propKeys.length; j++) {
+    properties += propKeys[j] + ":" + selectedPropObj[propKeys[j]] + ";";
+  }
+
+  properties = properties.substring(0, properties.length - 1);
+  var find = false;
+
+  for (var i = 0; i < allProperties.length; i++) {
+    if (properties == allProperties[i]) {
+      find = true;
+      break;
+    }
+  }
+
+  return find;
+}
+/**
+ * 当前属性是否可以选择  
+ * 
+ * 参数说明：
+ * @param allProperties  ['颜色:金色;内存:64GB','颜色:金色;内存:256GB']
+ * @param selectedPropObj {'颜色':'金色','内存':'64GB'}
+ * @param propKeys ['颜色','内存']
+ * @param key 颜色
+ * @param item 金色
+ * 
+ * @return 0 不可选  1 可选  2 可选但跟其他值不匹配
+ */
+
+
+function props_contain2(allProperties, selectedPropObj, key, item, propKeys) {
+  var properties = "";
+  selectedPropObj[key] = item;
+
+  for (var j = 0; j < propKeys.length; j++) {
+    properties += propKeys[j] + ":" + selectedPropObj[propKeys[j]] + ";";
+  }
+
+  properties = properties.substring(0, properties.length - 1);
+  var find = false;
+
+  for (var i = 0; i < allProperties.length; i++) {
+    if (properties == allProperties[i]) {
+      find = true;
+      return 1;
+      break;
+    }
+  }
+
+  if (!find) {
+    for (var i = 0; i < allProperties.length; i++) {
+      if (allProperties[i].indexOf(item) >= 0) {
+        return 2;
+        break;
+      }
+    }
+  }
+
+  return 0;
+}
+
+function parseDiscount(discountRule, lang) {
+  if (discountRule == 0) {
+    return lang == 'zh_CN' ? '满额减' : 'Amount';
+  } else if (discountRule == 1) {
+    return lang == 'zh_CN' ? '满件减' : 'Pieces';
+  } else if (discountRule == 2) {
+    return lang == 'zh_CN' ? '满额折' : 'Amount-discount';
+  } else if (discountRule == 3) {
+    return lang == 'zh_CN' ? '满件折' : 'Pieces-discount';
+  } else {
+    return '';
+  }
+}
+
+function parseDiscountMsg(discountRule, needAmount, discount, lang) {
+  if (discountRule == 0) {
+    return lang == 'zh_CN' ? '购满' + needAmount + '元减' + discount + '元' : 'Over ' + needAmount + ' minus ' + discount;
+  } else if (discountRule == 1) {
+    return lang == 'zh_CN' ? '购满' + needAmount + '件减' + discount + '元' : discount + ' less for ' + needAmount + ' pieces' ;
+  } else if (discountRule == 2) {
+    return lang == 'zh_CN' ? '购满' + needAmount + '元打' + discount + '折' : discount + '% off over ' + needAmount;
+  } else if (discountRule == 3) {
+    return lang == 'zh_CN' ? '购满' + needAmount + '件打' + discount + '折' : discount + '% off over ' + needAmount + ' pieces' ;
+  } else {
+    return '';
+  }
+}
+
+function parseDiscountProd(discountRule, needAmount, discount, lang) {
+  if (discountRule == 1) {
+    return lang == 'zh_CN' ? '满' + needAmount + '减' + discount : '￥ ' + discount + ' off on ' + needAmount;
+  } else if (discountRule == 2) {
+    return lang == 'zh_CN' ? '满' + needAmount + '打' + discount + '折' : (100-discount*10) + '% off on ' + '￥ ' + needAmount;
+  } else {
+    return '';
+  }
+}
+
+function getCurrDiscountName(discountId, discounts,lang) {
+  for (var i = 0; i < discounts.length; i++) {
+    if (discounts[i].discountId == discountId) {
+      return discounts[i].discountName;
+    }
+  }
+
+  return lang == 'zh_CN' ? '不参与促销' : 'Not participating in promotion';
+}
+/**
+ * <分销员等级>根据index动态添加样式
+ */
+
+
+var indexof = function (index) {
+  switch (index) {
+    case 1:
+      return 'width2';
+      break;
+
+    case 2:
+      return 'width3';
+      break;
+
+    case 3:
+      return 'width4';
+      break;
+
+    case 4:
+      return 'width5';
+      break;
+  }
+};
+/**
+ * 裁剪日期  2020-03-20 15:04:40  ->  2020-03-20
+ */
+
+
+function spliceDate(dateStr) {
+  if (!dateStr) return;
+  return dateStr.split(' ')[0];
+}
+
+module.exports = {
+  spliceDate: spliceDate,
+  toPrice: toPrice,
+  parsePrice: parsePrice,
+  array_contain: array_contain,
+  props_contain: props_contain,
+  props_contain2: props_contain2,
+  parseDiscount: parseDiscount,
+  parseDiscountMsg: parseDiscountMsg,
+	parseDiscountProd: parseDiscountProd,
+  getCurrDiscountName: getCurrDiscountName,
+  indexof: indexof,
+  rounding: rounding
+};

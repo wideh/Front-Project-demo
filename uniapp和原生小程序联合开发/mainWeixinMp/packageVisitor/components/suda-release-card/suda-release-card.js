@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["packageVisitor/components/suda-release-card/suda-release-card"],{"1edc":function(t,e,i){"use strict";i.r(e);var n=i("51c9"),s=i.n(n);for(var r in n)["default"].indexOf(r)<0&&function(t){i.d(e,t,(function(){return n[t]}))}(r);e["default"]=s.a},"218c":function(t,e,i){"use strict";i.r(e);var n=i("c1d8"),s=i("1edc");for(var r in s)["default"].indexOf(r)<0&&function(t){i.d(e,t,(function(){return s[t]}))}(r);i("8df4");var a=i("f0c5"),u=Object(a["a"])(s["default"],n["b"],n["c"],!1,null,null,null,!1,n["a"],void 0);e["default"]=u.exports},"51c9":function(t,e,i){"use strict";Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var n={name:"sudaVisitorCard",props:{visitor:{type:Object,default:{}}},computed:{isUseabled:function(){return!this.visitor.hasBeenUsed&&!this.isOutOfDate},isOutOfDate:function(){if(this.visitor.effectiveEndTime){var t=this.$tool.date.parse(this.visitor.effectiveEndTime);if(new Date>t)return!0}return!1},displayStatus:function(){return this.visitor.hasBeenUsed?"已使用":this.isOutOfDate?"已过期":"未使用"},displayTime:function(){return this.visitor.visitTime?this.$tool.date.format(this.visitor.visitTime,"yyyy-MM-dd hh:mm"):""}}};e.default=n},"8df4":function(t,e,i){"use strict";var n=i("bf3d"),s=i.n(n);s.a},bf3d:function(t,e,i){},c1d8:function(t,e,i){"use strict";i.d(e,"b",(function(){return n})),i.d(e,"c",(function(){return s})),i.d(e,"a",(function(){}));var n=function(){var t=this.$createElement;this._self._c},s=[]}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'packageVisitor/components/suda-release-card/suda-release-card-create-component',
+    {
+        'packageVisitor/components/suda-release-card/suda-release-card-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("218c"))
+        })
+    },
+    [['packageVisitor/components/suda-release-card/suda-release-card-create-component']]
+]);

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "投票",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "page-empty": "/components/page-empty/page-empty",
+    "activity-card": "/packageVote/components/activity-card",
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

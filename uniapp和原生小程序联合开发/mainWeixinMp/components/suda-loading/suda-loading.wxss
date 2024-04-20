@@ -1,0 +1,1 @@
+.suda-loading{height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center}.suda-loading.full-screen{height:100vh}.suda-loading .icon{width:340rpx;height:291rpx}.suda-loading .title{margin-top:40rpx;font-size:36rpx}

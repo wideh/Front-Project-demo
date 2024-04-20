@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "申请退款",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-icon": "/components/u-icon/u-icon",
+    "user-privacy": "/components/userPrivacy/userPrivacy",
+    "prod-card": "/packageEC/components/prod-card"
+  }
+}

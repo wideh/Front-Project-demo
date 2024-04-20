@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "地址",
+  "usingComponents": {
+    "u-index-list": "/packagePark/components/u-index-list/u-index-list",
+    "u-index-anchor": "/packagePark/components/u-index-list/u-index-anchor"
+  }
+}

@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["packageWM/components/order-detail/order-detail-head"],{"0325d":function(t,n,e){"use strict";e.r(n);var o=e("f82d"),c=e("18e7");for(var a in c)["default"].indexOf(a)<0&&function(t){e.d(n,t,(function(){return c[t]}))}(a);e("0e35");var i=e("f0c5"),u=Object(i["a"])(c["default"],o["b"],o["c"],!1,null,null,null,!1,o["a"],void 0);n["default"]=u.exports},"0e35":function(t,n,e){"use strict";var o=e("c4bb"),c=e.n(o);c.a},"18e7":function(t,n,e){"use strict";e.r(n);var o=e("cb9f"),c=e.n(o);for(var a in o)["default"].indexOf(a)<0&&function(t){e.d(n,t,(function(){return o[t]}))}(a);n["default"]=c.a},c4bb:function(t,n,e){},cb9f:function(t,n,e){"use strict";(function(t){Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var e={props:{orderInfo:Object},methods:{cancelOrder:function(n){this.$http.request("/api/v2.0/WeChat/Bookings/".concat(n,"/Cancel"),null,{method:"PUT"}).then((function(n){t.showToast({title:"订单取消成功",icon:"none"}),setTimeout((function(){t.navigateBack({delta:1})}),1e3),console.log(n)})).catch((function(t){console.log(t)}))},evaluationOrder:function(n){t.navigateTo({url:"../sale-activity/comment/comment?detailId=".concat(n)})}}};n.default=e}).call(this,e("543d")["default"])},f82d:function(t,n,e){"use strict";e.d(n,"b",(function(){return o})),e.d(n,"c",(function(){return c})),e.d(n,"a",(function(){}));var o=function(){var t=this.$createElement,n=(this._self._c,this.$formatDate(this.orderInfo.bookingTime)||"");this.$mp.data=Object.assign({},{$root:{g0:n}})},c=[]}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'packageWM/components/order-detail/order-detail-head-create-component',
+    {
+        'packageWM/components/order-detail/order-detail-head-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("0325d"))
+        })
+    },
+    [['packageWM/components/order-detail/order-detail-head-create-component']]
+]);

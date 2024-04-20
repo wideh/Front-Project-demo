@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "园区商城",
+  "usingComponents": {
+    "h-loading": "/components/h-loading/h-loading"
+  }
+}

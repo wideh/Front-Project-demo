@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "租会议室",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "mescroll-body": "/uni_modules/mescroll-uni/components/mescroll-body/mescroll-body",
+    "dropdown-filter": "/packageMeet/components/dropdown-filter",
+    "room-card": "/packageMeet/components/room-card"
+  }
+}

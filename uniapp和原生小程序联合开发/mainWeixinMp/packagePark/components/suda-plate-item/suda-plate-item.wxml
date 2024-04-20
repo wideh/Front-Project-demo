@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['onItemClick',['$event']]]]]}}" class="{{['plate-item',(showNewEnergy)?'new-energy':'',(isActive)?'active':'']}}" bindtap="__e"><block wx:if="{{showNewEnergy}}"><view><view class="icon uni-icon uni-icon-plusempty"></view><view class="text">新能源</view></view></block><block wx:else><view class="text">{{text}}</view></block></view>

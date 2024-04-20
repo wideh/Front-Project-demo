@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "调试信息",
+  "usingComponents": {
+    "uni-icons": "/node-modules/@dcloudio/uni-ui/lib/uni-icons/uni-icons",
+    "uni-popup": "/node-modules/@dcloudio/uni-ui/lib/uni-popup/uni-popup",
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "我的房间",
+  "usingComponents": {
+    "suda-loading": "/components/suda-loading/suda-loading",
+    "page-empty": "/components/page-empty/page-empty",
+    "suda-room-card": "/components/suda-room-card/suda-room-card",
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

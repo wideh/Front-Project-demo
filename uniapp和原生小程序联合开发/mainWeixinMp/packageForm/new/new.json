@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "新建审批申请",
+  "usingComponents": {
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "uni-data-picker": "/uni_modules/uni-data-picker/components/uni-data-picker/uni-data-picker",
+    "uni-data-select": "/uni_modules/uni-data-select/components/uni-data-select/uni-data-select",
+    "user-privacy": "/components/userPrivacy/userPrivacy",
+    "forecast-approval-history": "/packageForm/components/forecastApprovalHistory"
+  }
+}

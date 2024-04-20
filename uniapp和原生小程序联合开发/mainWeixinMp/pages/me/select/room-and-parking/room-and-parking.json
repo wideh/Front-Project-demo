@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "选择房间/车位",
+  "usingComponents": {
+    "suda-loading": "/components/suda-loading/suda-loading",
+    "page-empty": "/components/page-empty/page-empty",
+    "suda-room-card": "/components/suda-room-card/suda-room-card",
+    "uni-tag": "/node-modules/@dcloudio/uni-ui/lib/uni-tag/uni-tag",
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

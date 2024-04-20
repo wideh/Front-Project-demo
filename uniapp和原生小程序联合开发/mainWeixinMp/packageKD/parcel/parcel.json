@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "我的邮包",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "page-empty": "/components/page-empty/page-empty",
+    "parcel-head": "/packageKD/components/parcel/parcel-head",
+    "parce-list": "/packageKD/components/parcel/parcel-list",
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

@@ -1,0 +1,10 @@
+require('../../common/vendor.js');(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["packageDecoration/components/reform-list/reform-list"],{"2d0c":function(t,e,a){"use strict";a.r(e);var r=a("6935"),n=a("9c7e");for(var i in n)["default"].indexOf(i)<0&&function(t){a.d(e,t,(function(){return n[t]}))}(i);a("99e9");var o=a("f0c5"),c=Object(o["a"])(n["default"],r["b"],r["c"],!1,null,null,null,!1,r["a"],void 0);e["default"]=c.exports},4425:function(t,e,a){"use strict";(function(t){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var a={data:function(){return{detailStatus:""}},props:{reformItem:Object},methods:{onDetailClicked:function(){console.log("reformItem",this.reformItem),t.navigateTo({url:"/packageDecoration/reform-detail/reform-detail?reformCode=".concat(this.reformItem.reformCode)})}},created:function(){var t=this.reformItem;switch(t.status){case 0:this.detailStatus="审批中";break;case 1:this.detailStatus="整改中";break;case 2:this.detailStatus="待确认";break;case 3:this.detailStatus="已完成";break;case 4:this.detailStatus="已关闭";break}}};e.default=a}).call(this,a("543d")["default"])},"556e":function(t,e,a){},6935:function(t,e,a){"use strict";a.d(e,"b",(function(){return r})),a.d(e,"c",(function(){return n})),a.d(e,"a",(function(){}));var r=function(){var t=this.$createElement,e=(this._self._c,this.$formatDateNewTime(this.reformItem.creationDate));this.$mp.data=Object.assign({},{$root:{g0:e}})},n=[]},"99e9":function(t,e,a){"use strict";var r=a("556e"),n=a.n(r);n.a},"9c7e":function(t,e,a){"use strict";a.r(e);var r=a("4425"),n=a.n(r);for(var i in r)["default"].indexOf(i)<0&&function(t){a.d(e,t,(function(){return r[t]}))}(i);e["default"]=n.a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'packageDecoration/components/reform-list/reform-list-create-component',
+    {
+        'packageDecoration/components/reform-list/reform-list-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("2d0c"))
+        })
+    },
+    [['packageDecoration/components/reform-list/reform-list-create-component']]
+]);

@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uv-link": "/packageDecoration/components/uv-link/components/uv-link/uv-link",
+    "uv-icon": "/packageDecoration/components/uv-icon/components/uv-icon/uv-icon"
+  }
+}

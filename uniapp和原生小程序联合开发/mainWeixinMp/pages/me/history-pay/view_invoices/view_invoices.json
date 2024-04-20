@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "电子发票",
+  "usingComponents": {
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons"
+  }
+}

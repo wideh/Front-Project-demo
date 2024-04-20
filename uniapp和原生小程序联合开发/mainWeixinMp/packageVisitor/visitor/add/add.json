@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "新增访客",
+  "usingComponents": {
+    "uni-icons": "/node-modules/@dcloudio/uni-ui/lib/uni-icons/uni-icons",
+    "user-privacy": "/components/userPrivacy/userPrivacy",
+    "uni-number-box": "/node-modules/@dcloudio/uni-ui/lib/uni-number-box/uni-number-box",
+    "uni-popup": "/node-modules/@dcloudio/uni-ui/lib/uni-popup/uni-popup",
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

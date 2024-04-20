@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "选择停车场",
+  "usingComponents": {
+    "suda-loading": "/components/suda-loading/suda-loading",
+    "suda-position-step": "/components/suda-position-step/suda-position-step",
+    "page-empty": "/components/page-empty/page-empty",
+    "uni-search-bar": "/node-modules/@dcloudio/uni-ui/lib/uni-search-bar/uni-search-bar",
+    "uni-list-item": "/node-modules/@dcloudio/uni-ui/lib/uni-list-item/uni-list-item",
+    "uni-list": "/node-modules/@dcloudio/uni-ui/lib/uni-list/uni-list",
+    "room-use-agreement": "/components/room-useagreement/room-useagreement",
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

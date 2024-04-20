@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "投票",
+  "usingComponents": {
+    "u-modal": "/components/u-modal/u-modal",
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

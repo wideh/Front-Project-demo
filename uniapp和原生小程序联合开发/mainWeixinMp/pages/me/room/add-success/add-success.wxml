@@ -1,0 +1,1 @@
+<view><page-success vue-id="3389bb0d-1" title="房间绑定成功" note="点击下方按钮返回查看房间详情" buttonText="返回" data-event-opts="{{[['^buttonClick',[['onButtonClick']]]]}}" bind:buttonClick="__e" bind:__l="__l"></page-success><view class="bottom-container"><custom-footer vue-id="3389bb0d-2" data="{{footerData}}" bind:__l="__l"></custom-footer></view></view>

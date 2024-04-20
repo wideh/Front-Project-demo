@@ -1,0 +1,1 @@
+.room-list{display:flex;flex-direction:column;align-items:center;padding-bottom:calc(var(--safe-area-inset-bottom) + 200rpx)}.suda-room-card{margin-top:40rpx}.suda-room-card .btns .uni-tag{margin-left:10rpx;border:1px solid #fff;color:#fff;background-color:hsla(0,0%,100%,0)}.bottom-button-container{background:#f6f4f4}

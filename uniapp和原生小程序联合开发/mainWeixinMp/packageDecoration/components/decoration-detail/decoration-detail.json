@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uv-steps": "/packageDecoration/components/uv-steps/components/uv-steps/uv-steps",
+    "uv-steps-item": "/packageDecoration/components/uv-steps/components/uv-steps-item/uv-steps-item"
+  }
+}

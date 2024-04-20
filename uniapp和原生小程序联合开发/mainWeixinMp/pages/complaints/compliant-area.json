@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "区域",
+  "usingComponents": {
+    "search": "/components/zy-search/zy-search",
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

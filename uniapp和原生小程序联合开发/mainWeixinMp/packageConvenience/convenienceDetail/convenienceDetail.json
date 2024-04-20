@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "便民服务",
+  "usingComponents": {
+    "custom-footer": "/components/custom-footer/custom-footer",
+    "u-parse": "/components/gaoyia-parse/parse"
+  }
+}

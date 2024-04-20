@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "装修详情",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "decoration-detail": "/packageDecoration/components/decoration-detail/decoration-detail",
+    "application-progress": "/packageDecoration/components/application-progress/application-progress",
+    "acceptance-application": "/packageDecoration/components/acceptance-application/acceptance-application"
+  }
+}

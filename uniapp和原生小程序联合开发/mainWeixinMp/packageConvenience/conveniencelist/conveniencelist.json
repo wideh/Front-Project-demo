@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "便民服务",
+  "usingComponents": {
+    "suda-loading": "/components/suda-loading/suda-loading",
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "许可及服务协议",
+  "usingComponents": {
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

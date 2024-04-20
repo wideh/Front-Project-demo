@@ -1,0 +1,1 @@
+<view><view class="empty"><image src="https://pms-statics.oss-cn-shenzhen.aliyuncs.com/wechat_index/new_icon-empty.png"></image></view><view class="content">{{content}}</view></view>

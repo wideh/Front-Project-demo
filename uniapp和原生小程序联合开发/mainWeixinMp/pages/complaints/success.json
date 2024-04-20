@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "投诉",
+  "usingComponents": {
+    "page-success": "/components/page-success/page-success",
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

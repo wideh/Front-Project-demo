@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "编辑抬头",
+  "usingComponents": {
+    "field-item": "/packagePark/components/field-item/field-item"
+  }
+}

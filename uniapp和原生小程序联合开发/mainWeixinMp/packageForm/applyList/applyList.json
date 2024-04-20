@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "我的申请",
+  "usingComponents": {
+    "uni-easyinput": "/uni_modules/uni-easyinput/components/uni-easyinput/uni-easyinput",
+    "no-data": "/components/NoData"
+  }
+}

@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["packagePlace/components/sku-select"],{"36e04":function(t,e,n){"use strict";n.r(e);var u=n("45a5"),c=n("4e20");for(var i in c)["default"].indexOf(i)<0&&function(t){n.d(e,t,(function(){return c[t]}))}(i);n("9efb");var o=n("f0c5"),a=n("aeb3"),f=Object(o["a"])(c["default"],u["b"],u["c"],!1,null,"1fb661d9",null,!1,u["a"],void 0);"function"===typeof a["a"]&&Object(a["a"])(f),e["default"]=f.exports},"45a5":function(t,e,n){"use strict";n.d(e,"b",(function(){return c})),n.d(e,"c",(function(){return i})),n.d(e,"a",(function(){return u}));var u={uPopup:function(){return n.e("components/u-popup/u-popup").then(n.bind(null,"f766"))}},c=function(){var t=this.$createElement;this._self._c},i=[]},"4e20":function(t,e,n){"use strict";n.r(e);var u=n("afb9"),c=n.n(u);for(var i in u)["default"].indexOf(i)<0&&function(t){n.d(e,t,(function(){return u[t]}))}(i);e["default"]=c.a},"9be6":function(t,e,n){},"9efb":function(t,e,n){"use strict";var u=n("9be6"),c=n.n(u);c.a},aeb3:function(t,e,n){"use strict";e["a"]=function(t){t.options.wxsCallMethods||(t.options.wxsCallMethods=[])}},afb9:function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var u={name:"skuSelect",props:{skuGroup:{default:function(){},type:Object},skuImg:{default:"",type:String},skuPrice:{default:0,type:Number},skuSelect:{default:function(){},type:Object}},data:function(){return{visible:!1}},computed:{attrStr:function(){return this.skuSelect?Object.values(this.skuSelect).join("，"):""}},methods:{handleSelectAttr:function(t,e){this.$emit("changeAttr",{item:t,key:e})},handleConfirm:function(){this.visible=!1}}};e.default=u}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'packagePlace/components/sku-select-create-component',
+    {
+        'packagePlace/components/sku-select-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("36e04"))
+        })
+    },
+    [['packagePlace/components/sku-select-create-component']]
+]);

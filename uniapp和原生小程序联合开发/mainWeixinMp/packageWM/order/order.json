@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "订购记录",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "order-title": "/packageWM/components/order/order-title",
+    "order-list": "/packageWM/components/order/order-list",
+    "empty": "/packageWM/components/empty/empty",
+    "reach-bottom": "/packageWM/components/reachBottom/reach-bottom",
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

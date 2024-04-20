@@ -1,0 +1,2 @@
+.button_continue.data-v-37d45848,
+.button_cancel.data-v-37d45848{width:650rpx}.button_cc.data-v-37d45848{width:100%;position:fixed;height:300rpx;bottom:50rpx;display:flex;flex-direction:column;justify-content:space-around}.richText.data-v-37d45848{margin:0 40rpx 0rpx 40rpx;overflow:scroll;height:calc(100vh - 350rpx);z-index:999}.downloadBtn.data-v-37d45848{width:650rpx;margin:0 auto;text-align:center;color:#34a853;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}

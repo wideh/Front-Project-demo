@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "新增车辆",
+  "usingComponents": {
+    "page-success": "/packagePark/components/page-success/page-success",
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

@@ -1,0 +1,1 @@
+.list-info{margin-top:30rpx;background-color:#fff}.info-key{width:550rpx}.row-line{display:flex;flex-direction:row;justify-content:space-between;align-items:center;padding:20rpx 20rpx 20rpx 20rpx;border-bottom:#999 1rpx solid}

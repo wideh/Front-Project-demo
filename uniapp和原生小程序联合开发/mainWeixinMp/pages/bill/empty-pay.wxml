@@ -1,0 +1,1 @@
+<view class="container"><view class="usermotto"><image style="width:100px;height:100px;" src="{{imagePath}}"></image><text class="payresult">{{motto}}</text></view></view>

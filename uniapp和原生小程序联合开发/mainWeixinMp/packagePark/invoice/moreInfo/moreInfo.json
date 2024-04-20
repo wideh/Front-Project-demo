@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "更多信息",
+  "usingComponents": {
+    "field-item": "/packagePark/components/field-item/field-item"
+  }
+}

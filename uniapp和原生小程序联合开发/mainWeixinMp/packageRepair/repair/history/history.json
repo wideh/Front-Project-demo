@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "历史报修",
+  "usingComponents": {
+    "page-empty": "/components/page-empty/page-empty",
+    "uni-segmented-control": "/node-modules/@dcloudio/uni-ui/lib/uni-segmented-control/uni-segmented-control",
+    "uni-tag": "/node-modules/@dcloudio/uni-ui/lib/uni-tag/uni-tag",
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

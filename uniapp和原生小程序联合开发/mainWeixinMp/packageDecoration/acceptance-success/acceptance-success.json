@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "物业之家",
+  "usingComponents": {
+    "page-success": "/components/page-success/page-success"
+  }
+}

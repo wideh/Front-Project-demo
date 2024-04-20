@@ -1,0 +1,1 @@
+<view><page-success vue-id="0b7eec16-1" title="报名成功！" buttonText="返回" data-event-opts="{{[['^buttonClick',[['onButtonClick']]]]}}" bind:buttonClick="__e" bind:__l="__l"></page-success><view class="bottom-container"><custom-footer vue-id="0b7eec16-2" data="{{footerData}}" bind:__l="__l"></custom-footer></view></view>

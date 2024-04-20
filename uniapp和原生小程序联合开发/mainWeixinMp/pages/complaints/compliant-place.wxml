@@ -1,0 +1,1 @@
+<view><search vue-id="3c57f23f-1" isFocus="true" theme="circle" hotList="{{searchList}}" showWant="true" currentArea="{{currentArea}}" data-event-opts="{{[['^getSearchText',[['getSearchText']]]]}}" bind:getSearchText="__e" bind:__l="__l"></search><view><custom-footer vue-id="3c57f23f-2" data="{{footerData}}" bind:__l="__l"></custom-footer></view></view>

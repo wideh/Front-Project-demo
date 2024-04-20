@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "招商租赁",
+  "usingComponents": {
+    "suda-loading": "/components/suda-loading/suda-loading",
+    "drop-down-menu": "/packageZS/components/dropdown-menu",
+    "building-select": "/packageZS/components/building-select",
+    "area-select": "/packageZS/components/area-select",
+    "tag-select": "/packageZS/components/tag-select",
+    "resource-list": "/packageZS/components/resource-list"
+  }
+}

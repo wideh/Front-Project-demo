@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "电子发票",
+  "usingComponents": {
+    "suda-loading": "/components/suda-loading/suda-loading",
+    "mp-html": "/components/mp-html/mp-html",
+    "u-modal": "/components/u-modal/u-modal",
+    "user-privacy": "/components/userPrivacy/userPrivacy",
+    "page-status-bar": "/components/page-status-bar/page-status-bar",
+    "no-data": "/components/NoData"
+  }
+}

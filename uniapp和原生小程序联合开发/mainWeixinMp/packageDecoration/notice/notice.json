@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "装修须知",
+  "usingComponents": {
+    "user-privacy": "/components/userPrivacy/userPrivacy"
+  }
+}

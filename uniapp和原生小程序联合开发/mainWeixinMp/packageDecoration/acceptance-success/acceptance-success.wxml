@@ -1,0 +1,1 @@
+<view><page-success vue-id="3ea232e4-1" title="验收申请已提交成功" note="您已经提交成功,请您耐心等待,工作人员会与你联系" buttonText="返回" data-event-opts="{{[['^buttonClick',[['onButtonClick']]]]}}" bind:buttonClick="__e" bind:__l="__l"></page-success></view>

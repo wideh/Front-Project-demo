@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "选择社区",
+  "usingComponents": {
+    "suda-position-step": "/components/suda-position-step/suda-position-step",
+    "page-empty": "/components/page-empty/page-empty",
+    "uni-search-bar": "/node-modules/@dcloudio/uni-ui/lib/uni-search-bar/uni-search-bar",
+    "uni-list-item": "/node-modules/@dcloudio/uni-ui/lib/uni-list-item/uni-list-item",
+    "uni-list": "/node-modules/@dcloudio/uni-ui/lib/uni-list/uni-list",
+    "suda-loading": "/components/suda-loading/suda-loading",
+    "custom-footer": "/components/custom-footer/custom-footer"
+  }
+}

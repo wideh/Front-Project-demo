@@ -1,0 +1,53 @@
+.virtualTable {
+  border-bottom: 1px solid rgb(240, 240, 240);
+
+  :global {
+    .ant-table-wrapper {
+      border-right: 1px solid rgb(240, 240, 240);
+    }
+
+    .ant-pro-table-list-toolbar-title {
+      padding-left: 12px;
+    }
+
+    .ant-pro-table-list-toolbar {
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
+
+    .ant-table-empty {
+      .virtuallist {
+        height: 100% !important;
+
+        table {
+          height: 100%;
+        }
+      }
+    }
+  }
+}
+// 解决第一块折叠面板里面表格高度过多问题
+.panelVirtualTable {
+  :global .ant-table-body {
+    height: auto !important;
+  }
+}
+// 让折叠面板之间有间隔
+:global #chargeCenterBills {
+  .ant-collapse{
+    background-color: unset;
+  }
+  .site-collapse-custom-collapse .site-collapse-custom-panel{
+    margin-bottom: 10px;
+    background: #fafafa;
+  }
+}
+
+.virtual-list{
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+}
